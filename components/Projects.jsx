@@ -4,11 +4,28 @@ import {
   Smartphone,
   Cpu,
   FolderOpen,
+  Globe,
 } from "lucide-react";
 
 import { projects } from "../data/projects";
 
 function Projects() {
+  const getCategoryIcon = (category) => {
+    switch (category) {
+      case "Website":
+        return <Globe size={17} />;
+
+      case "Mobile Application":
+        return <Smartphone size={17} />;
+
+      case "Internet of Things":
+        return <Cpu size={17} />;
+
+      default:
+        return <Code2 size={17} />;
+    }
+  };
+
   return (
     <section className="projects section" id="projects">
       <div className="section-container">
@@ -23,8 +40,8 @@ function Projects() {
 
           <p>
             Eksplorasi proyek pengembangan perangkat lunak, aplikasi mobile,
-            Internet of Things, dan implementasi teknologi yang telah saya
-            kerjakan.
+            website, Internet of Things, dan implementasi teknologi yang telah
+            saya kerjakan.
           </p>
         </div>
 
@@ -46,12 +63,7 @@ function Projects() {
               <div className="project-layout">
                 <div className="project-main">
                   <div className="project-category">
-                    {project.category === "Internet of Things" ? (
-                      <Cpu size={17} />
-                    ) : (
-                      <Smartphone size={17} />
-                    )}
-
+                    {getCategoryIcon(project.category)}
                     {project.category}
                   </div>
 
@@ -102,38 +114,39 @@ function Projects() {
                     </div>
                   )}
 
-                 {project.image && (
-  <div className="project-info-item">
-    <span>
-      {project.interfaceUrl
-        ? "ANTARMUKA APLIKASI"
-        : "DOKUMENTASI PROYEK"}
-    </span>
+                  {project.image && (
+                    <div className="project-info-item">
+                      <span>
+                        {project.interfaceUrl
+                          ? "ANTARMUKA APLIKASI"
+                          : "DOKUMENTASI PROYEK"}
+                      </span>
 
-    <div className="project-screenshot">
-      <img
-        src={project.image}
-        alt={
-          project.interfaceUrl
-            ? `Antarmuka aplikasi ${project.title}`
-            : `Dokumentasi proyek ${project.title}`
-        }
-      />
-    </div>
+                      <div className="project-screenshot">
+                        <img
+                          src={project.image}
+                          alt={
+                            project.interfaceUrl
+                              ? `Antarmuka aplikasi ${project.title}`
+                              : `Dokumentasi proyek ${project.title}`
+                          }
+                        />
+                      </div>
 
-    {project.interfaceUrl && (
-      <a
-        href={project.interfaceUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="project-interface-link"
-      >
-        Lihat Antarmuka Aplikasi SkillSap v1.0.0
-        <ArrowUpRight size={18} />
-      </a>
-    )}
-  </div>
-)}
+                      {project.interfaceUrl && (
+                        <a
+                          href={project.interfaceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="project-interface-link"
+                        >
+                          {project.interfaceLabel ||
+                            "Lihat Antarmuka Aplikasi"}
+                          <ArrowUpRight size={18} />
+                        </a>
+                      )}
+                    </div>
+                  )}
 
                   {(project.liveUrl ||
                     project.demoUrl ||
@@ -146,7 +159,7 @@ function Projects() {
                           rel="noopener noreferrer"
                           className="project-action-link"
                         >
-                          Lihat Website
+                          Kunjungi Proyek
                           <ArrowUpRight size={18} />
                         </a>
                       )}

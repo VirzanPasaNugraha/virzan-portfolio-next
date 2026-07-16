@@ -1,6 +1,45 @@
 export const projects = [
+
   {
-    id: 1,
+  id: 1,
+
+  title: "PilihAI",
+
+  subtitle:
+    "Direktori AI Berbahasa Indonesia",
+
+  category:
+    "Website",
+
+  featured: true,
+
+  image:
+    "/profile/pilihai.png",
+
+  liveUrl:
+    "https://pilih-ai.vercel.app/",
+
+  description:
+    "PilihAI merupakan direktori dan kurator tools Artificial Intelligence (AI) berbahasa Indonesia yang membantu pengguna menemukan AI terbaik sesuai kebutuhan. Platform ini mengelompokkan berbagai tools AI ke dalam kategori seperti menulis, desain, coding, presentasi, video, riset, hingga produktivitas. Selain menyediakan informasi fitur, harga, dan dukungan Bahasa Indonesia, PilihAI juga menghadirkan artikel edukasi, roadmap belajar AI, serta rekomendasi berdasarkan kebutuhan pengguna.",
+
+  role:
+    "Founder, Full Stack Developer & Product Designer",
+
+  technologies: [
+    "Astro",
+    "TypeScript",
+    "Tailwind CSS",
+    "Markdown",
+    "Content Collections",
+    "Vercel",
+    "Google Search Console",
+    "Google Analytics",
+    "SEO",
+    "Schema.org",
+  ],
+},
+  {
+    id: 2,
 
     title: "SkillSap",
 
@@ -57,7 +96,7 @@ export const projects = [
 
 
  {
-  id: 2,
+  id: 3,
 
   title: "Smart Home IoT",
 
@@ -89,7 +128,7 @@ export const projects = [
 },
 
 {
-  id: 3,
+  id: 4,
 
   title: "Hast Jaya Pet Care Hub",
 
@@ -123,7 +162,7 @@ export const projects = [
 },
 
 {
-  id: 4,
+  id: 5,
 
   title: "Taskie Freelance",
 
