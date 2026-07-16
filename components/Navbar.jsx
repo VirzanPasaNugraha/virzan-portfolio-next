@@ -46,7 +46,7 @@ function Navbar() {
           className="navbar-logo"
           onClick={() => setIsOpen(false)}
         >
-          Virzan<span>.</span>
+          Portfolio<span>.</span>
         </a>
 
         <div className="navbar-menu">
