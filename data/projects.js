@@ -36,6 +36,7 @@ export const projects = [
     "Google Analytics",
     "SEO",
     "Schema.org",
+    "Google AdSense",
   ],
 },
   {
