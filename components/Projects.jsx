@@ -152,18 +152,17 @@ function Projects() {
                     project.demoUrl ||
                     project.documentationUrl) && (
                     <div className="project-actions">
-                      {project.liveUrl && (
-                        <a
-                          href={project.liveUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="project-action-link"
-                        >
-                          Kunjungi Proyek
-                          <ArrowUpRight size={18} />
-                        </a>
-                      )}
-
+{project.liveUrl && (
+  <a
+    href={project.liveUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-action-link"
+  >
+    {project.buttonText || "Kunjungi Proyek"}
+    <ArrowUpRight size={18} />
+  </a>
+)}
                       {project.demoUrl && (
                         <a
                           href={project.demoUrl}

@@ -94,9 +94,39 @@ export const projects = [
     ],
   },
 
-
- {
+{
   id: 3,
+
+  title: "Portfolio Website",
+
+  subtitle: "Website Portfolio Pribadi",
+
+  category: "Website",
+
+  featured: true,
+
+  image: "/profile/portfolio.png",
+
+  liveUrl: "https://virzanpasanugraha.vercel.app/", // atau Vercel
+
+  role: "Full Stack Developer & UI Designer",
+
+  description:
+    "Website portfolio pribadi yang dibangun untuk menampilkan pengalaman, proyek, sertifikat, publikasi ilmiah, serta informasi profesional secara modern dan responsif. Website ini mengutamakan performa, SEO, aksesibilitas, serta pengalaman pengguna yang optimal.",
+
+  technologies: [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "CSS3",
+    "Vercel",
+    "Google Analytics",
+    "SEO",
+    "Responsive Design",
+  ],
+},
+ {
+  id: 4,
 
   title: "Smart Home IoT",
 
@@ -128,7 +158,7 @@ export const projects = [
 },
 
 {
-  id: 4,
+  id: 5,
 
   title: "Hast Jaya Pet Care Hub",
 
@@ -162,7 +192,7 @@ export const projects = [
 },
 
 {
-  id: 5,
+  id: 6,
 
   title: "Taskie Freelance",
 

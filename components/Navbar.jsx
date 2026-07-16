@@ -29,6 +29,10 @@ function Navbar() {
       href: "#publications",
     },
     {
+      name: "☕ Dukung Saya",
+      href: "#support",
+    },
+    {
       name: "Kontak",
       href: "#contact",
     },
@@ -42,7 +46,7 @@ function Navbar() {
           className="navbar-logo"
           onClick={() => setIsOpen(false)}
         >
-          Portfolio<span>.</span>
+          Virzan<span>.</span>
         </a>
 
         <div className="navbar-menu">

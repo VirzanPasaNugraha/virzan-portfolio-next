@@ -1,4 +1,4 @@
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Heart } from "lucide-react";
 
 function Hero() {
   return (
@@ -13,16 +13,14 @@ function Hero() {
             Nugraha<span>.</span>
           </h1>
 
-        <h2>
-  Software Developer & Peneliti Teknologi
-</h2>
+          <h2>Software Developer & Peneliti Teknologi</h2>
 
-<p>
-  Saya berfokus pada pengembangan aplikasi mobile dan website,
-  Internet of Things (IoT), eksplorasi machine learning, serta
-  penelitian di bidang usability dan Human-Computer Interaction (HCI).
-</p>
-
+          <p>
+            Saya berfokus pada pengembangan aplikasi mobile dan website,
+            Internet of Things (IoT), eksplorasi machine learning, serta
+            penelitian di bidang usability dan Human-Computer Interaction
+            (HCI).
+          </p>
 
           <div className="hero-actions">
             <a href="#projects" className="btn-primary">
@@ -30,29 +28,37 @@ function Hero() {
               <ArrowRight size={18} />
             </a>
 
-          
+            <a
+              href="https://saweria.co/virzan30"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              <Heart size={18} />
+              Dukung Saya
+            </a>
           </div>
         </div>
 
-<div className="hero-visual">
-  <div className="hero-card">
-    <div className="hero-profile-wrapper">
-      <div className="hero-profile-orbit"></div>
+        <div className="hero-visual">
+          <div className="hero-card">
+            <div className="hero-profile-wrapper">
+              <div className="hero-profile-orbit"></div>
 
-      <img
-        src="/profile/foto.jpeg"
-        alt="Virzan Pasa Nugraha"
-        className="hero-profile"
-      />
-    </div>
+              <img
+                src="/profile/foto.jpeg"
+                alt="Virzan Pasa Nugraha"
+                className="hero-profile"
+              />
+            </div>
 
-    <p>Teknologi & Penelitian</p>
+            <p>Teknologi & Penelitian</p>
 
-    <span>
-      Eksplorasi, pengembangan, dan inovasi
-    </span>
-  </div>
-</div>
+            <span>
+              Eksplorasi, pengembangan, dan inovasi
+            </span>
+          </div>
+        </div>
       </div>
     </section>
   );
