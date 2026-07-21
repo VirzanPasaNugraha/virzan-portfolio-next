@@ -5,6 +5,8 @@ import {
   Cpu,
   FolderOpen,
   Globe,
+  Sparkles,
+  BrainCircuit,
 } from "lucide-react";
 
 import { projects } from "../data/projects";
@@ -20,6 +22,12 @@ function Projects() {
 
       case "Internet of Things":
         return <Cpu size={17} />;
+
+      case "Artificial Intelligence":
+        return <Sparkles size={17} />;
+
+      case "Data Science & Machine Learning":
+        return <BrainCircuit size={17} />;
 
       default:
         return <Code2 size={17} />;

@@ -39,6 +39,121 @@ export const projects = [
     "Google AdSense",
   ],
 },
+
+{
+  id: 7,
+
+  title: "KoreksiKata",
+
+  subtitle:
+    "AI Koreksi Typo & Kata Baku Bahasa Indonesia",
+
+  category:
+    "Artificial Intelligence",
+
+  featured: true,
+
+  image:
+    "/profile/koreksikata.png",
+
+  liveUrl:
+    "https://koreksikata.vercel.app/",
+
+  description:
+    "KoreksiKata adalah aplikasi berbasis AI yang membantu memperbaiki typo, kata tidak baku, istilah asing, dan berbagai kesalahan penulisan dalam Bahasa Indonesia secara instan. Melalui halaman editor interaktif, pengguna dapat menempelkan teks dan menerima koreksi otomatis berbasis model AI Gemini beserta penjelasan perbaikannya. Platform ini juga dilengkapi halaman FAQ, informasi seputar aplikasi, serta kebijakan privasi untuk mendukung kenyamanan dan kepercayaan pengguna.",
+
+  role:
+    "Founder, Full Stack Developer & Product Designer",
+
+  technologies: [
+    "Astro",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Google Gemini AI",
+    "Vercel",
+    "SEO",
+    "Sitemap",
+  ],
+},
+
+{
+  id: 8,
+
+  title: "Executive Text Engine",
+
+  subtitle:
+    "AI Signature Generator Berbasis Vector Canvas",
+
+  category:
+    "Artificial Intelligence",
+
+  featured: true,
+
+  image:
+    "/profile/executive-text-engine.png",
+
+  liveUrl:
+    "https://executive-text-engine.vercel.app/",
+
+  description:
+    "Executive Text Engine adalah aplikasi pembuat tanda tangan digital berbasis vector canvas yang berjalan sepenuhnya di browser. Alih-alih menempelkan hasil scan tulisan tangan atau font kursif generik, engine ini merekonstruksi guratan tanda tangan secara algoritmik lengkap dengan variasi tekanan pena, ligature antar huruf, flourish dekoratif, dan variasi natural agar hasilnya menyerupai tanda tangan tulisan tangan asli. Seluruh proses pemrosesan berjalan secara lokal di perangkat pengguna tanpa data yang dikirim ke server, dengan hasil akhir yang dapat diekspor dalam format PNG, SVG, maupun PDF.",
+
+  role:
+    "Founder, Full Stack Developer & Product Designer",
+
+  technologies: [
+    "Astro",
+    "TypeScript",
+    "Canvas API",
+    "opentype.js",
+    "Perfect Freehand",
+    "Bezier.js",
+    "Paper.js",
+    "jsPDF",
+    "Vercel",
+    "SEO",
+  ],
+},
+
+{
+  id: 9,
+
+  title: "Diabetes Risk Prediction System",
+
+  subtitle:
+    "Dashboard Prediksi Risiko Diabetes Berbasis Machine Learning",
+
+  category:
+    "Data Science & Machine Learning",
+
+  featured: true,
+
+  image:
+    "/profile/diabetes.png",
+
+  liveUrl:
+    "https://diabetesriskpredictionsystem.streamlit.app/",
+
+  description:
+    "Diabetes Risk Prediction System adalah dashboard riset berbasis machine learning yang memprediksi risiko diabetes seseorang menggunakan model CatBoost yang dilatih pada dataset BRFSS 2015 dengan lebih dari 69.000 sampel dan 21 fitur. Selain fitur prediksi, aplikasi ini menyediakan halaman analisis mendalam seperti model performance, SHAP explainability, fairness analysis, calibration curve, hingga threshold analysis untuk menjelaskan bagaimana model mengambil keputusan secara transparan. Proyek ini dikembangkan sebagai riset akademik dengan hasil model mencapai akurasi 74,95% dan ROC-AUC 82,67%.",
+
+  role:
+    "Full Stack Developer & Machine Learning Engineer",
+
+  technologies: [
+    "Python",
+    "Streamlit",
+    "CatBoost",
+    "Scikit-learn",
+    "SHAP",
+    "Pandas",
+    "NumPy",
+    "Plotly",
+    "Matplotlib",
+  ],
+},
+
   {
     id: 2,
 
