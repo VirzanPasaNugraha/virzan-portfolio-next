@@ -91,7 +91,7 @@ export const projects = [
   featured: true,
 
   image:
-    "/profile/executive-text-engine.png",
+    "/profile/text.png",
 
   liveUrl:
     "https://executive-text-engine.vercel.app/",
