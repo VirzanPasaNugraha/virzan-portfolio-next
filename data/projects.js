@@ -223,7 +223,7 @@ export const projects = [
 
   image: "/profile/portfolio.png",
 
-  liveUrl: "https://virzanpasanugraha.vercel.app/", // atau Vercel
+  liveUrl: "https://virzanpasanugraha.my.id/", // atau Vercel
 
   role: "Full Stack Developer & UI Designer",
 

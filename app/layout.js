@@ -28,7 +28,7 @@ export const metadata = {
 
   metadataBase:
     new URL(
-      "https://virzanpasanugraha.vercel.app/"
+      "https://virzanpasanugraha.my.id/"
     ),
 
   alternates: {
@@ -43,7 +43,7 @@ export const metadata = {
       "Software Developer dan peneliti teknologi.",
 
     url:
-      "https://virzanpasanugraha.vercel.app",
+      "https://virzanpasanugraha.my.id/",
 
     siteName:
       "Virzan Pasa Nugraha",
@@ -99,10 +99,10 @@ export default function RootLayout({
         "Virzan Pasa Nugraha",
 
       "url":
-        "https://virzanpasanugraha.vercel.app/",
+        "https://virzanpasanugraha.my.id/",
 
       "image":
-        "https://virzanpasanugraha.vercel.app/profile/favicon-virzan.png",
+        "https://virzanpasanugraha.my.id/profile/favicon-virzan.png",
 
       "jobTitle":
         "Software Developer",
