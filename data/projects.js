@@ -304,7 +304,7 @@ export const projects = [
   ],
 
   liveUrl:
-    "https://hastjaya.netlify.app/",
+    "https://hastjaya-petcare-hub.vercel.app/",
 },
 
 {
