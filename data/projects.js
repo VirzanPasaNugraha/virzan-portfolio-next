@@ -347,4 +347,37 @@ export const projects = [
   documentationUrl:
     "https://drive.google.com/drive/folders/1_Aaw6tOksEDsNxBFVuX6gZ48oNaBybF3",
 },
+{
+  id: 10,
+
+  title: "Wood Cycle",
+
+  subtitle:
+    "Website Bengkel Restorasi & Jual-Beli Motor Classic",
+
+  category:
+    "Website",
+
+  featured: false,
+
+  image:
+    "/profile/woodcycle.png",
+
+  liveUrl:
+    "https://wood-cycle.vercel.app/",
+
+  description:
+    "Wood Cycle adalah website resmi bengkel restorasi dan jual-beli motor matic classic yang membantu pelanggan melihat etalase motor siap pakai, paket layanan restorasi (ringan & total), portofolio hasil restorasi before-after, serta testimoni pelanggan. Website ini terintegrasi langsung dengan WhatsApp untuk mempermudah proses booking slot restorasi dan tanya-tanya seputar motor secara cepat dan praktis.",
+
+  role:
+    "Full Stack Developer & UI Designer",
+
+  technologies: [
+    "Astro",
+    "Tailwind CSS",
+    "JavaScript",
+    "Vercel",
+    "WhatsApp Integration",
+  ],
+},
 ];
