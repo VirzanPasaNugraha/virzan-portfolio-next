@@ -380,4 +380,37 @@ export const projects = [
     "WhatsApp Integration",
   ],
 },
+{
+  id: 11,
+
+  title: "Warung A P",
+
+  subtitle:
+    "Landing Page Warung Kelontong",
+
+  category:
+    "Website",
+
+  featured: false,
+
+  image:
+    "/profile/warung.png",
+
+  liveUrl:
+    "https://warung-a-p.vercel.app/",
+
+  description:
+    "Warung A P adalah landing page untuk usaha warung kelontong yang menampilkan informasi produk, jam operasional, galeri suasana toko, serta lokasi secara ringkas dan mudah diakses oleh calon pelanggan. Website ini terintegrasi langsung dengan WhatsApp untuk mempermudah proses tanya-tanya seputar produk secara cepat dan praktis.",
+
+  role:
+    "Full Stack Developer & UI Designer",
+
+  technologies: [
+    "Astro",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vercel",
+    "WhatsApp Integration",
+  ],
+},
 ];
