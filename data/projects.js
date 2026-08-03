@@ -413,4 +413,45 @@ export const projects = [
     "WhatsApp Integration",
   ],
 },
+{
+  id: 12,
+
+  title: "NetMeter",
+
+  subtitle:
+    "Aplikasi Pengukur Kecepatan Internet Multi-Platform",
+
+  category:
+    "Aplikasi Mobile",
+
+  featured: true,
+
+  image:
+    "/profile/netmeter.png",
+
+  liveUrl:
+    "https://netmeter.vercel.app/",
+
+  description:
+    "NetMeter adalah aplikasi pengukur kecepatan internet (ping, jitter, download, upload) berbasis Flutter yang berjalan di Web dan Android. Selain pengukuran inti lewat infrastruktur speed test Cloudflare, aplikasi ini menghadirkan fitur yang jarang ditemukan di aplikasi speed test sejenis: rekomendasi kualitas jaringan untuk skenario penggunaan (video call, gaming, streaming) berdasarkan ambang batas resmi Zoom, Google Meet, dan Netflix, auto-test terjadwal dengan notifikasi anomali kecepatan, widget home screen Android yang menampilkan hasil tes terakhir, floating overlay, grafik tren riwayat, serta fitur berbagi/ekspor hasil tes. Untuk versi Android, aplikasi juga tersedia sebagai APK yang bisa diunduh langsung dari versi Web-nya.",
+
+  role:
+    "Full Stack Mobile Developer",
+
+  technologies: [
+    "Flutter",
+    "Dart",
+    "Dio",
+    "Flutter Bloc (Cubit)",
+    "Hive",
+    "Syncfusion Flutter Gauges",
+    "fl_chart",
+    "Flutter Foreground Task",
+    "Flutter Overlay Window",
+    "Home Widget",
+    "Share Plus",
+    "Cloudflare Speed Test API",
+    "Vercel",
+  ],
+},
 ];
