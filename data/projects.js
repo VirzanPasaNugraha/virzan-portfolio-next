@@ -520,4 +520,37 @@ export const projects = [
     "Plotly",
   ],
 },
+{
+  id: 15,
+
+  title: "HIV Jabar Dashboard",
+
+  subtitle:
+    "Dashboard Interaktif Analisis Kasus HIV Jawa Barat",
+
+  category:
+    "Data Science & Machine Learning",
+
+  featured: true,
+
+  image:
+    "/profile/hiv.png",
+
+  liveUrl:
+    "https://hiv-jabar-2018-2025.streamlit.app/",
+
+  description:
+    "HIV Jabar Dashboard adalah dashboard interaktif berbasis Streamlit yang menyajikan data jumlah kasus HIV baru di 27 kabupaten/kota Provinsi Jawa Barat periode 2018-2025, bersumber dari Open Data Dinas Kesehatan Provinsi Jawa Barat. Dashboard ini menghadirkan ringkasan KPI, perbandingan dan ranking antarwilayah, heatmap wilayah x tahun, analisis tren linear per kabupaten/kota lengkap dengan estimasi indikatif tahun berikutnya, serta tabel data yang dapat difilter dan diunduh.",
+
+  role:
+    "Full Stack Developer & Data Analyst",
+
+  technologies: [
+    "Python",
+    "Streamlit",
+    "Pandas",
+    "NumPy",
+    "Plotly",
+  ],
+},
 ];
