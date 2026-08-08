@@ -553,4 +553,37 @@ export const projects = [
     "Plotly",
   ],
 },
+{
+  id: 16,
+
+  title: "Perpustakaan Jabar Dashboard",
+
+  subtitle:
+    "Dashboard Interaktif Cakupan Perpustakaan Jawa Barat",
+
+  category:
+    "Data Science & Machine Learning",
+
+  featured: true,
+
+  image:
+    "/profile/perpustakaan.png",
+
+  liveUrl:
+    "https://perpustakaan-jabar-2018.streamlit.app/",
+
+  description:
+    "Perpustakaan Jabar Dashboard adalah dashboard interaktif berbasis Streamlit yang menyajikan data jumlah perpustakaan berdasarkan jenis di Provinsi Jawa Barat tahun 2018, bersumber dari Open Data Jawa Barat. Dashboard ini menghadirkan ringkasan KPI, perbandingan ADA vs Belum Ada per jenis dan kelompok perpustakaan, analisis rasio cakupan layanan untuk mengidentifikasi jenis perpustakaan yang paling tertinggal, serta tabel data yang dapat difilter dan diunduh. Desain dashboard responsif menyesuaikan tampilan di layar desktop, tablet, maupun mobile.",
+
+  role:
+    "Full Stack Developer & Data Analyst",
+
+  technologies: [
+    "Python",
+    "Streamlit",
+    "Pandas",
+    "NumPy",
+    "Plotly",
+  ],
+},
 ];
