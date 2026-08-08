@@ -454,4 +454,37 @@ export const projects = [
     "Vercel",
   ],
 },
+{
+  id: 13,
+
+  title: "Hipertensi Jabar Dashboard",
+
+  subtitle:
+    "Dashboard Interaktif Analisis Penderita Hipertensi Jawa Barat",
+
+  category:
+    "Data Science & Machine Learning",
+
+  featured: true,
+
+  image:
+    "/profile/hipertensi.png",
+
+  liveUrl:
+    "https://hipertensi-jabar-2019-2025.streamlit.app/",
+
+  description:
+    "Hipertensi Jabar Dashboard adalah dashboard interaktif berbasis Streamlit yang menyajikan data jumlah penderita hipertensi yang mendapat pelayanan kesehatan di 27 kabupaten/kota Provinsi Jawa Barat periode 2019-2025, bersumber dari Open Data Dinas Kesehatan Provinsi Jawa Barat. Dashboard ini menghadirkan ringkasan KPI, perbandingan dan ranking antarwilayah, heatmap wilayah x tahun, analisis tren linear per kabupaten/kota lengkap dengan estimasi indikatif tahun berikutnya, serta tabel data yang dapat difilter dan diunduh.",
+
+  role:
+    "Full Stack Developer & Data Analyst",
+
+  technologies: [
+    "Python",
+    "Streamlit",
+    "Pandas",
+    "NumPy",
+    "Plotly",
+  ],
+},
 ];
