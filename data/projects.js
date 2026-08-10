@@ -586,4 +586,40 @@ export const projects = [
     "Plotly",
   ],
 },
+{
+  id: 17,
+
+  title: "CardioSense AI",
+
+  subtitle:
+    "Sistem Prediksi Risiko Serangan Jantung Berbasis Machine Learning",
+
+  category:
+    "Data Science & Machine Learning",
+
+  featured: true,
+
+  image:
+    "/profile/jantung.png",
+
+  liveUrl:
+    "https://prediksi-serangan-jantung-di-indonesia.streamlit.app/",
+
+  description:
+    "CardioSense AI adalah dashboard riset berbasis machine learning yang memprediksi risiko serangan jantung menggunakan model LightGBM yang dilatih pada dataset lebih dari 158.000 sampel dengan 27 fitur demografis, gaya hidup, dan klinis. Selain fitur prediksi interaktif, aplikasi ini menyediakan halaman analisis mendalam seperti model performance dengan kurva ROC dan precision-recall, SHAP explainability, audit keadilan (fairness) antar kelompok demografis, hingga kalibrasi probabilitas, untuk menjelaskan bagaimana model mengambil keputusan secara transparan. Proyek ini dikembangkan sebagai riset akademik dengan hasil model mencapai ROC-AUC 81,66% dan balanced accuracy 72,18%.",
+
+  role:
+    "Full Stack Developer & Machine Learning Engineer",
+
+  technologies: [
+    "Python",
+    "Streamlit",
+    "LightGBM",
+    "Scikit-learn",
+    "SHAP",
+    "Pandas",
+    "NumPy",
+    "Plotly",
+  ],
+},
 ];
