@@ -658,4 +658,41 @@ export const projects = [
     "ReportLab",
   ],
 },
+
+{
+  id: 19,
+
+  title: "Dasbor Gizi Resep Indonesia",
+
+  subtitle:
+    "Dashboard Eksplorasi & Rekomendasi Resep Indonesia Berbasis Gizi",
+
+  category:
+    "Data Science & Machine Learning",
+
+  featured: true,
+
+  image:
+    "/profile/gizi.png",
+
+  liveUrl:
+    "https://dasbor-gizi-resep-indonesia.streamlit.app/",
+
+  description:
+    "Dasbor Gizi Resep Indonesia adalah dashboard berbasis Streamlit untuk menjelajahi dan mendapatkan rekomendasi resep masakan rumahan Indonesia berdasarkan kandungan gizi per porsi, dilatih pada 1.400 resep dengan angka gizi yang dihitung ulang lengkap dengan koreksi Bagian Dapat Dimakan (BDD) dan skor kelengkapan data. Sistem menggabungkan K-Nearest Neighbors dan cosine similarity untuk merekomendasikan resep dengan profil gizi paling mirip, dilengkapi pencarian resep berdasarkan target gizi kustom, database referensi gizi bahan mentah, serta halaman transparansi kualitas data dan metodologi (tier A-D).",
+
+  role:
+    "Full Stack Developer & Machine Learning Engineer",
+
+  technologies: [
+    "Python",
+    "Streamlit",
+    "Scikit-learn",
+    "K-Nearest Neighbors",
+    "Cosine Similarity",
+    "Pandas",
+    "NumPy",
+    "Plotly",
+  ],
+},
 ];
