@@ -45,7 +45,7 @@ export const publications = [
       "PROTOTYPING PURWARUPA FRONT-END PERPUSTAKAAN DIGITAL FTI UNSAP DENGAN EVALUASI UAT",
     field: "Software Development & User Acceptance Testing",
     publisher: "JITET",
-    status: "LoA",
+    status: "Terbit",
     description:
       "Pengembangan purwarupa front-end perpustakaan digital FTI UNSAP yang dievaluasi menggunakan User Acceptance Testing (UAT).",
   },
