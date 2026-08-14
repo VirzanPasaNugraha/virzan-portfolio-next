@@ -622,4 +622,40 @@ export const projects = [
     "Plotly",
   ],
 },
+{
+  id: 18,
+
+  title: "NutriSense",
+
+  subtitle:
+    "Sistem Rekomendasi Nutrisi Makanan & Minuman Indonesia Berbasis Machine Learning",
+
+  category:
+    "Data Science & Machine Learning",
+
+  featured: true,
+
+  image:
+    "/profile/nutrisi.png",
+
+  liveUrl:
+    "https://indonesian-food-and-drink-nutrition-dataset.streamlit.app/",
+
+  description:
+    "NutriSense adalah dashboard rekomendasi nutrisi berbasis Streamlit yang membantu pengguna menemukan makanan dan minuman Indonesia dengan profil nutrisi serupa, dilatih pada dataset lebih dari 1.300 makanan & minuman dengan 4 fitur nutrisi utama (kalori, protein, lemak, karbohidrat). Sistem menggabungkan dua mesin rekomendasi—K-Nearest Neighbors dan Cosine Similarity—yang dapat saling dibandingkan hasilnya, dilengkapi tab evaluasi model (self-retrieval rate, stabilitas Jaccard, silhouette score) untuk menjelaskan validitas rekomendasi secara transparan, serta fitur ekspor hasil rekomendasi ke PDF.",
+
+  role:
+    "Full Stack Developer & Machine Learning Engineer",
+
+  technologies: [
+    "Python",
+    "Streamlit",
+    "Scikit-learn",
+    "K-Nearest Neighbors",
+    "Cosine Similarity",
+    "Pandas",
+    "NumPy",
+    "ReportLab",
+  ],
+},
 ];
