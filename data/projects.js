@@ -700,7 +700,7 @@ export const projects = [
   id: 20,
   title: "FormForge-Sign",
   subtitle:
-    "Bulk PDF Automator & Signer Berbasis Client-Side",
+    "Client-Side PDF Signer & Automator",
   category:
     "Website",
   featured: true,
@@ -709,7 +709,7 @@ export const projects = [
   liveUrl:
     "https://formforge-sign.virzanpasanugraha.workers.dev/",
   description:
-    "FormForge-Sign (Bulk PDF Automator & Signer) adalah aplikasi web utilitas yang mengotomatisasi pembuatan ratusan dokumen seperti slip gaji atau sertifikat dalam hitungan detik. Sistem ini memproses data tabular (Excel), template PDF, dan posisi tanda tangan (visual drag-and-drop) secara 100% langsung di browser pengguna (client-side). Dengan arsitektur tanpa server (serverless) dan bantuan Web Workers, aplikasi ini menjamin keamanan privasi data yang tinggi tanpa mengorbankan performa UI.",
+    "FormForge-Sign adalah aplikasi web utilitas yang mempermudah proses manipulasi dan penambahan tanda tangan ke dalam dokumen PDF. Sistem ini menggunakan antarmuka visual drag-and-drop agar pengguna dapat memposisikan tanda tangan secara presisi di atas template. Seluruh proses pemrosesan dokumen berjalan 100% langsung di browser pengguna (client-side), sehingga menjamin keamanan dan privasi data karena tidak ada file yang diunggah ke server.",
   role:
     "Full Stack Developer",
   technologies: [
@@ -717,7 +717,6 @@ export const projects = [
     "TypeScript",
     "Tailwind CSS",
     "pdf-lib",
-    "SheetJS (xlsx)",
     "jszip",
     "Web Workers",
     "Client-Side Processing",
