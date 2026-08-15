@@ -759,4 +759,29 @@ export const projects = [
     "Responsive Design",
   ],
 },
+
+{
+  id: 22,
+  title: "JSONTree",
+  subtitle: "Visual Interactive JSON Tree & Graph Visualizer",
+  category: "Website",
+  featured: true,
+  image: "/profile/json.png",
+  liveUrl: "https://json-tree.virzanpasanugraha.workers.dev/",
+  description:
+    "JSONTree adalah aplikasi web interaktif berbasis visual untuk mengeksplorasi, memvalidasi, dan memvisualisasikan struktur data JSON secara hierarkis maupun dalam bentuk node graph. Dilengkapi dengan editor kode berbasis Monaco Editor, visualisasi interaktif menggunakan React Flow (@xyflow/react), serta fitur ekspor dan pencarian cepat untuk mempermudah analisis struktur data yang kompleks.",
+  role: "Full Stack Developer & UI Designer",
+  technologies: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "@xyflow/react",
+    "Monaco Editor",
+    "Lucide React",
+    "Cloudflare Workers",
+    "Client-Side Processing",
+    "Responsive Design",
+  ],
+},
 ];
