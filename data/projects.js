@@ -722,4 +722,41 @@ export const projects = [
     "Client-Side Processing",
   ],
 },
+
+{
+  id: 21,
+
+  title: "TER CALC",
+
+  subtitle:
+    "Kalkulator PPh 21 Berbasis Tarif Efektif Rata-Rata",
+
+  category: "Website",
+
+  featured: true,
+
+  image:
+    "/profile/kalkulator.png",
+
+  liveUrl:
+    "https://calculator-pajak.virzanpasanugraha.workers.dev/",
+
+  description:
+    "TER CALC adalah aplikasi kalkulator PPh 21 yang membantu pengguna memperkirakan potongan pajak penghasilan dan take home pay berdasarkan penghasilan bruto bulanan serta status PTKP. Sistem secara otomatis memetakan status PTKP ke kategori Tarif Efektif Rata-Rata (TER) dan menampilkan estimasi tarif efektif, potongan PPh 21, serta penghasilan bersih secara instan. Seluruh proses perhitungan dilakukan langsung di perangkat pengguna sehingga data penghasilan tetap privat dan tidak perlu dikirim ke server.",
+
+  role:
+    "Full Stack Developer & UI Designer",
+
+  technologies: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Wouter",
+    "Lucide React",
+    "Cloudflare Workers",
+    "Client-Side Processing",
+    "Responsive Design",
+  ],
+},
 ];
