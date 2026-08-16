@@ -784,4 +784,23 @@ export const projects = [
     "Responsive Design",
   ],
 },
+{
+    id: 23,
+    title: "LokalDev Kanban",
+    subtitle: "Aplikasi Manajemen Tugas Berbasis Kanban",
+    category: "Website",
+    featured: true,
+    image: "/profile/kanban.png",
+    liveUrl: "https://lokaldevkanb-zlbutybb.manus.space/",
+    description:
+      "LokalDev Kanban adalah aplikasi web interaktif bergaya Kanban yang dirancang untuk mempermudah pelacakan tugas, manajemen proyek, dan alur kerja. Menggunakan antarmuka visual yang intuitif dengan fitur drag-and-drop, pengguna dapat dengan mudah memindahkan kartu tugas, mengatur tahapan pekerjaan, serta memantau progres pengembangan secara efisien. Proyek ini dikembangkan dengan berfokus pada fungsionalitas dan pengalaman pengguna yang optimal.",
+    role: "Full Stack Developer",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Responsive Design",
+    ],
+  }
 ];
