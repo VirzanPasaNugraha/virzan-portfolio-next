@@ -784,6 +784,7 @@ export const projects = [
     "Responsive Design",
   ],
 },
+
 {
     id: 23,
     title: "LokalDev Kanban",
