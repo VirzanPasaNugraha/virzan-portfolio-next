@@ -802,5 +802,5 @@ export const projects = [
       "Vite",
       "Responsive Design",
     ],
-  }
+  },
 ];
