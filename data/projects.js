@@ -811,7 +811,7 @@ export const projects = [
   subtitle: "Aplikasi Rencana Latihan Mingguan & Pencapaian untuk Mahasiswa",
   category: "Website",
   featured: true,
-  image: "/profile/fitstreak.png",
+  image: "/profile/fitsreak.png",
   liveUrl: "https://fitstreak-fge8h5aa.manus.space/",
   description:
     "FitStreak adalah aplikasi web (PWA) yang membantu mahasiswa membangun kebiasaan olahraga lewat Rencana Mingguan Kustom (Hari 1-7) dan Sistem Pencapaian bergaya gamifikasi, terinspirasi Nike Run Club dan Strava dengan pendekatan yang lebih ramah untuk mahasiswa. Pengguna dapat menyusun jadwal latihan sendiri per hari, melacak progres, dan mendapatkan achievement badge sebagai motivasi konsisten berolahraga.",
