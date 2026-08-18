@@ -831,4 +831,26 @@ export const projects = [
     "PWA",
   ],
 },
+
+{
+    id: 25,
+    title: "Konversi Media",
+    subtitle: "Aplikasi Web Konversi Format Media",
+    category: "Website",
+    featured: true,
+    image: "/profile/konversi.png",
+    liveUrl: "https://converter.virzanpasanugraha.workers.dev/",
+    description:
+      "Konversi Media adalah aplikasi web utilitas yang dirancang untuk mempermudah pengguna dalam mengubah format berbagai file media secara cepat dan efisien. Menggunakan antarmuka yang modern dan responsif, proses konversi dilakukan dengan mengutamakan privasi dan keamanan data pengguna, didukung oleh infrastruktur web yang andal untuk performa yang optimal.",
+    role: "Full Stack Developer",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Cloudflare Workers",
+      "Client-Side Processing",
+      "Responsive Design"
+    ],
+  }
 ];
