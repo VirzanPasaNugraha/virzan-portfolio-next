@@ -1,8 +1,5 @@
 import { ArrowUpRight, BookOpen, GraduationCap } from "lucide-react";
-import {
-  publications,
-   scholarProfile,
-} from "../data/publications";
+import { publications, scholarProfile } from "../data/publications";
 
 function Publications() {
   return (
@@ -25,16 +22,16 @@ function Publications() {
             </p>
           </div>
 
-      <a
-  href={scholarProfile}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="publication-archive-button"
->
-  <GraduationCap size={19} />
-  Lihat Profil Google Scholar
-  <ArrowUpRight size={17} />
-</a>
+          <a
+            href={scholarProfile}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="publication-archive-button"
+          >
+            <GraduationCap size={19} />
+            Lihat Profil Google Scholar
+            <ArrowUpRight size={17} />
+          </a>
         </div>
 
         <div className="publication-list">
@@ -58,9 +55,14 @@ function Publications() {
                 <p>{item.description}</p>
               </div>
 
-              <div className="publication-icon">
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="publication-icon"
+              >
                 <BookOpen size={24} />
-              </div>
+              </a>
             </article>
           ))}
         </div>
