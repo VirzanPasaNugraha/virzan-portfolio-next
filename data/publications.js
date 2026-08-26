@@ -8,6 +8,7 @@ export const publications = [
     status: "Terbit",
     description:
       "Penelitian mengenai prediksi risiko diabetes berbasis data BRFSS dengan evaluasi performa model, explainability, fairness, dan calibration.",
+    link: "https://jurnal.polibatam.ac.id/index.php/JAIC/article/view/12740",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const publications = [
     status: "Terbit",
     description:
       "Penelitian mengenai sistem peringatan dini terhadap risiko kegagalan akademik menggunakan Decision Tree serta perbandingan dengan Random Forest dan Logistic Regression.",
+    link: "https://journals.telkomuniversity.ac.id/jasmine/article/view/10123",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const publications = [
     status: "Terbit",
     description:
       "Kajian literatur sistematis mengenai peningkatan kesadaran keamanan siber melalui pelatihan dengan pendekatan Knowledge, Attitude, and Behavior (KAB).",
+    link: "https://ejournal.resincen.org/index.php/quanta/article/view/48",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const publications = [
     status: "Terbit",
     description:
       "Penelitian mengenai kesadaran keamanan siber melalui pendekatan analisis berbasis data dan edukasi berbasis komunitas.",
+    link: "https://ejournal.resincen.org/index.php/quanta/article/view/49",
   },
   {
     id: 5,
@@ -48,8 +52,6 @@ export const publications = [
     status: "Terbit",
     description:
       "Pengembangan purwarupa front-end perpustakaan digital FTI UNSAP yang dievaluasi menggunakan User Acceptance Testing (UAT).",
+    link: "https://journal.eng.unila.ac.id/index.php/jitet/article/view/9966/4237",
   },
 ];
-
-export const scholarProfile =
-  "https://scholar.google.co.id/citations?user=7VkHsDQAAAAJ&hl=id";
