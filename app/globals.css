@@ -141,6 +141,33 @@ color-scheme:light;
   --shadow-strong: rgba(0, 0, 0, 0.4);
 }
 
+[data-theme="senja"] {
+  color-scheme: dark;
+
+  --bg-primary: #2d1b2e;
+  --bg-secondary: #3a2138;
+  --bg-card: #402444;
+  --bg-soft: #33203a;
+  --bg-muted: #4a2a4a;
+
+  --text-primary: #fdf1e8;
+  --text-secondary: #eccbb8;
+  --text-muted: #cb9a86;
+  --text-soft: #a97968;
+
+  --border-primary: #5c3450;
+  --border-secondary: #6e3f57;
+
+  --accent: #f2994a;
+  --accent-light: #f6b26b;
+  --accent-soft: rgba(242, 153, 74, 0.15);
+
+  --navbar-bg: rgba(45, 27, 46, 0.88);
+
+  --shadow-card: rgba(0, 0, 0, 0.25);
+  --shadow-strong: rgba(0, 0, 0, 0.4);
+}
+
 body{
 
   min-width:320px;
@@ -2350,5 +2377,473 @@ background: #f8fafc;
 /* ICON */
 
 [data-theme="dark"] svg {
+  transition: color 0.25s ease;
+}
+
+/* =========================================================
+   SENJA MODE
+========================================================= */
+
+[data-theme="senja"] .navbar-menu a {
+  color: var(--text-secondary);
+}
+
+[data-theme="senja"] .navbar-menu a:hover {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .navbar-toggle {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .mobile-menu {
+  background: var(--bg-card);
+  border-color: var(--border-primary);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="senja"] .mobile-menu a {
+  color: var(--text-secondary);
+}
+
+[data-theme="senja"] .mobile-menu a:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+
+/* HERO */
+
+[data-theme="senja"] .hero {
+  background: var(--bg-primary);
+}
+
+
+/* ABOUT */
+
+[data-theme="senja"] .about {
+  background: var(--bg-secondary);
+}
+
+[data-theme="senja"] .about-card {
+  background: var(--bg-card);
+  border-color: var(--border-primary);
+}
+
+[data-theme="senja"] .about-card h3 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .about-card p {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .about-icon {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+
+/* CERTIFICATES */
+
+[data-theme="senja"] .certificates {
+  background: var(--bg-soft);
+}
+
+[data-theme="senja"] .certificate-document-button {
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border-color: var(--border-primary);
+}
+
+[data-theme="senja"] .certificate-card {
+  background: var(--bg-card);
+  border-color: var(--border-primary);
+}
+
+
+[data-theme="senja"] .certificate-icon {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+
+[data-theme="senja"] .certificate-link:hover {
+  color: var(--accent);
+}
+
+
+/* PUBLICATIONS */
+
+[data-theme="senja"] .publications {
+  background: var(--bg-secondary);
+}
+
+[data-theme="senja"] .publication-list {
+  border-top-color: var(--border-primary);
+}
+
+[data-theme="senja"] .publication-item {
+  border-bottom-color: var(--border-primary);
+}
+
+
+[data-theme="senja"] .publication-icon {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+
+/* PROJECT */
+
+[data-theme="senja"] .projects {
+  background: #1f1220;
+}
+
+[data-theme="senja"] .project-card {
+  background: var(--bg-card);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.35);
+}
+
+
+[data-theme="senja"] .project-technologies span {
+  color: var(--text-secondary);
+  background: var(--bg-muted);
+  border-color: var(--border-primary);
+}
+
+[data-theme="senja"] .project-information {
+  border-left-color: var(--border-primary);
+}
+
+[data-theme="senja"] .project-info-item {
+  border-bottom-color: var(--border-primary);
+}
+
+[data-theme="senja"] .project-version-link {
+  background: var(--bg-muted);
+  border-color: var(--border-primary);
+}
+
+[data-theme="senja"] .project-version-link:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+
+/* EDUCATION */
+
+[data-theme="senja"] .education-line::after {
+  background: var(--border-secondary);
+}
+
+[data-theme="senja"] .education-dot {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: var(--border-secondary);
+}
+
+
+
+/* EXPERIENCE */
+
+
+[data-theme="senja"] .experience-card {
+  background: var(--bg-card);
+  border-color: var(--border-primary);
+}
+
+
+/* CONTACT */
+
+[data-theme="senja"] .contact {
+  background: #1f1220;
+}
+
+/* =========================================================
+   SENJA MODE - FINAL COLOR FIX
+========================================================= */
+
+/* GLOBAL */
+
+[data-theme="senja"] body {
+  color: var(--text-primary);
+  background: var(--bg-primary);
+}
+
+[data-theme="senja"] .section-heading > span {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .section-heading h2 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .section-heading p {
+  color: var(--text-muted);
+}
+
+
+/* NAVBAR */
+
+[data-theme="senja"] .navbar-logo {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .navbar-logo span {
+  color: var(--accent);
+}
+
+
+/* HERO */
+
+[data-theme="senja"] .hero-label {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .hero h1 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .hero h1 span {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .hero h2 {
+  color: var(--text-secondary);
+}
+
+[data-theme="senja"] .hero-content > p {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .btn-primary {
+  color: #ffffff;
+  background: var(--accent);
+}
+
+[data-theme="senja"] .btn-secondary {
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border-color: var(--border-primary);
+}
+
+
+/* EXPERIENCE */
+
+[data-theme="senja"] .experience-heading > span {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .experience-heading h3 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .experience-heading p {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .experience-year {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .experience-content h4 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .experience-content strong {
+  color: var(--text-secondary);
+}
+
+[data-theme="senja"] .experience-content p {
+  color: var(--text-muted);
+}
+
+
+/* EDUCATION */
+
+[data-theme="senja"] .education-heading > span {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .education-heading h3 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .education-year span {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .education-content span {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .education-content h4 {
+  color: var(--text-primary);
+}
+
+
+/* CERTIFICATES */
+
+[data-theme="senja"] .certificate-category {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .certificate-number {
+  color: var(--text-soft);
+}
+
+[data-theme="senja"] .certificate-card h3 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .certificate-card strong {
+  color: var(--text-secondary);
+}
+
+[data-theme="senja"] .certificate-card p {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .certificate-link {
+  color: var(--text-primary);
+  border-top-color: var(--border-primary);
+}
+
+/* PUBLICATIONS */
+
+[data-theme="senja"] .publication-number {
+  color: var(--text-soft);
+}
+
+[data-theme="senja"] .publication-field {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .publication-content h3 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .publication-meta {
+  color: var(--text-secondary);
+}
+
+[data-theme="senja"] .publication-dot {
+  background: var(--text-soft);
+}
+
+[data-theme="senja"] .publication-content p {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .publication-archive-button {
+  color: #ffffff;
+  background: var(--accent);
+}
+
+
+/* PROJECT */
+
+[data-theme="senja"] .project-heading > span {
+  color: var(--accent-light);
+}
+
+[data-theme="senja"] .project-heading h2 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .project-heading p {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .project-number {
+  color: var(--text-soft);
+}
+
+[data-theme="senja"] .project-featured {
+  color: var(--accent-light);
+  background: var(--accent-soft);
+}
+
+[data-theme="senja"] .project-category {
+  color: var(--accent);
+}
+
+[data-theme="senja"] .project-main h3 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .project-main h4 {
+  color: var(--text-secondary);
+}
+
+[data-theme="senja"] .project-main > p {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .project-info-item > span {
+  color: var(--text-soft);
+}
+
+[data-theme="senja"] .project-info-item > strong {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .project-versions strong {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .project-versions small {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .project-version-link strong {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .project-version-link small {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .project-link {
+  color: #ffffff;
+  background: var(--accent);
+}
+
+
+/* CONTACT */
+
+[data-theme="senja"] .contact-heading > span {
+  color: var(--accent-light);
+}
+
+[data-theme="senja"] .contact-heading h2 {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .contact-heading p {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .contact-card {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .contact-card span {
+  color: var(--text-muted);
+}
+
+[data-theme="senja"] .contact-card strong {
+  color: var(--text-primary);
+}
+
+[data-theme="senja"] .contact-icon {
+  color: var(--accent-light);
+}
+
+
+/* ICON */
+
+[data-theme="senja"] svg {
   transition: color 0.25s ease;
 }
