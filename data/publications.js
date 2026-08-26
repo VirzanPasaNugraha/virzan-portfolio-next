@@ -55,3 +55,6 @@ export const publications = [
     link: "https://journal.eng.unila.ac.id/index.php/jitet/article/view/9966/4237",
   },
 ];
+
+export const scholarProfile =
+  "https://scholar.google.co.id/citations?user=7VkHsDQAAAAJ&hl=id";
