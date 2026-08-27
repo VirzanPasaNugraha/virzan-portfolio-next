@@ -34,25 +34,25 @@ export const certificateCategories = [
   },
   {
     id: 4,
-    title: "Sertifikat Coursera",
-    category: "Kompetensi",
-    total: "5 Sertifikat",
-    description:
-      "Telah menyelesaikan lima Professional Certificate/Specialization di Coursera pada Agustus 2026, meliputi Microsoft Power BI Data Analyst (8 course, mencakup persiapan data, pemodelan, DAX, visualisasi, hingga persiapan ujian PL-300), Deep Learning oleh DeepLearning.AI (5 course, meliputi neural network, CNN, RNN/LSTM, dan Transformers), IBM Machine Learning (6 course, mencakup supervised, unsupervised, deep learning, dan reinforcement learning), Master Microsoft Office 365 and Power Platform (8 course, mencakup Word/Excel/PowerPoint, Power Automate, Power BI, hingga Power Virtual Agents), serta Google AI (8 course, mencakup penerapan AI untuk riset, komunikasi, analisis data, hingga pengembangan aplikasi).",
-    document:
-      "/documents/Cuorsera.pdf#page=4",
-    buttonText: "Lihat Sertifikat",
-  },
-  {
-    id: 5,
     title: "Webinar",
     category: "Kegiatan",
     total: "5 Kegiatan",
     description:
       "Telah mengikuti beberapa webinar sebagai peserta, di antaranya tiga webinar Skilvul AI Club seputar data science dan AI (Optimizing Data Science Workflows with AI and Machine Learning – 30 Mei 2024, Debating AI – 26 April 2024, dan Exploring the Power of Conversational AI – 28 Juni 2024), webinar teknologi \"Mencari TAHU apa itu Algoritma dan Data Sains\" oleh RTIK Sumedang pada 8 November 2025, serta webinar DiGDaya#24 tentang kajian sistem mineral Indonesia oleh Pusat Riset Sumber Daya Geologi BRIN pada 5 Agustus 2026.",
     document:
-      "/documents/Webinar.pdf#page=5",
+      "/documents/Webinar.pdf#page=4",
     buttonText: "Lihat Webinar",
+  },
+  {
+    id: 5,
+    title: "Sertifikat Coursera",
+    category: "Kompetensi",
+    total: "5 Sertifikat",
+    description:
+      "Telah menyelesaikan lima Professional Certificate/Specialization di Coursera pada Agustus 2026, meliputi Microsoft Power BI Data Analyst (8 course, mencakup persiapan data, pemodelan, DAX, visualisasi, hingga persiapan ujian PL-300), Deep Learning oleh DeepLearning.AI (5 course, meliputi neural network, CNN, RNN/LSTM, dan Transformers), IBM Machine Learning (6 course, mencakup supervised, unsupervised, deep learning, dan reinforcement learning), Master Microsoft Office 365 and Power Platform (8 course, mencakup Word/Excel/PowerPoint, Power Automate, Power BI, hingga Power Virtual Agents), serta Google AI (8 course, mencakup penerapan AI untuk riset, komunikasi, analisis data, hingga pengembangan aplikasi).",
+    document:
+      "/documents/Cuorsera.pdf#page=5",
+    buttonText: "Lihat Sertifikat",
   },
   {
   id: 6,
@@ -85,6 +85,17 @@ export const certificateCategories = [
     "/profile/kkn.pdf#page=7",
      buttonText: "Lihat KKN",
 },
+{
+    id: 8,
+    title: "Merchandise Google Cloud Skills Boost Arcade",
+    category: "Penghargaan",
+    total: "1 Paket",
+    description:
+      "Menerima paket merchandise apresiasi dari program Google Cloud Skills Boost Arcade berupa t-shirt, tas, lampu meja dengan jam, stiker, dan badge, sebagai bentuk penghargaan atas pencapaian poin dan penyelesaian tantangan dalam program Arcade.",
+    document:
+      "/documents/Arcade.pdf#page=8",
+    buttonText: "Lihat Bukti Pengiriman",
+  },
 ];
 
 export const certificateDocument =
