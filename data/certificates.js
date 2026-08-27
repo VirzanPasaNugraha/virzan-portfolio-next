@@ -63,7 +63,7 @@ export const certificateCategories = [
   id: 6,
 
   category: "Kegiatan",
-  total: "1 KKN",
+  total: "1 Kegiatan",
 
   title: "Kuliah Kerja Nyata (KKN)",
 
