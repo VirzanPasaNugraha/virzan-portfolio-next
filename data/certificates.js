@@ -5,7 +5,7 @@ export const certificateCategories = [
     category: "Prestasi",
     total: "2 Pencapaian",
     description:
-      "Pencapaian dalam kompetisi teknologi, pengembangan startup, dan pemrograman.",
+      "Pencapaian dalam kompetisi teknologi dan pengembangan startup",
     document:
       "/documents/Perlombaan.pdf#page=1",
     buttonText: "Lihat Prestasi",
