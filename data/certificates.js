@@ -23,13 +23,13 @@ export const certificateCategories = [
   },
   {
     id: 3,
-    title: "Seminar & Webinar",
+    title: "Seminar",
     category: "Kegiatan",
-    total: "5 Kegiatan",
+    total: "1 Kegiatan",
     description:
       "Partisipasi dalam seminar dan webinar mengenai AI, data science, algoritma, serta pengembangan diri.",
     document:
-      "/documents/220660121054_VirzanPasaNugraha_SERT-PENG-KOMPETENSI.pdf#page=8",
+      "/documents/Seminar.pdf#page=3",
     buttonText: "Lihat Kegiatan",
   },
   {
