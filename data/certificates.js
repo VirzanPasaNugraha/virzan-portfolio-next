@@ -51,6 +51,7 @@ export const certificateCategories = [
   issuer: "HIMA FTI Universitas Sebelas April",
 
   category: "Organisasi",
+  total: "1 Organisasi",
 
   description:
     "Berpartisipasi sebagai anggota Divisi Ekonomi Kreatif HIMA FTI dalam mendukung kegiatan organisasi, pengembangan kreativitas mahasiswa, serta program kerja di lingkungan Fakultas Teknologi Informasi.",
@@ -62,6 +63,7 @@ export const certificateCategories = [
   id: 6,
 
   category: "Kegiatan",
+  total: "1 KKN",
 
   title: "Kuliah Kerja Nyata (KKN)",
 
