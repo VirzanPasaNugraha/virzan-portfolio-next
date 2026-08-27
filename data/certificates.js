@@ -27,7 +27,7 @@ export const certificateCategories = [
     category: "Kegiatan",
     total: "1 Kegiatan",
     description:
-      "Partisipasi dalam seminar Writing PKM/Ilmiah & Personal Branding",
+      "Berpartisipasi sebagai peserta dalam Seminar Proposal Writing PKM/Ilmiah & Personal Branding yang diselenggarakan Himpunan Mahasiswa Informatika Universitas Sebelas April pada 8 Juni 2024.",
     document:
       "/documents/Seminar.pdf#page=3",
     buttonText: "Lihat Seminar",
