@@ -1,7 +1,7 @@
 export const certificateCategories = [
   {
     id: 1,
-    title: "Pencapaian Peringkat Pribadi",
+    title: "Pencapaian Peringkat Kompetisi",
     category: "Prestasi",
     total: "2 Pencapaian",
     description:
