@@ -10,7 +10,7 @@ function Hero() {
           <h1>
             Virzan Pasa
             <br />
-            Nugraha, S.Kom.<span>.</span>
+            Nugraha, S.Kom<span>.</span>
           </h1>
 
           <h2>Software Developer & Peneliti Teknologi</h2>
