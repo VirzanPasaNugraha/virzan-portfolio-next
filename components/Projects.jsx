@@ -7,7 +7,7 @@ import {
   Globe,
   Sparkles,
   BrainCircuit,
-  Star,
+  Crown,
 } from "lucide-react";
 
 import { projects } from "../data/projects";
@@ -64,7 +64,7 @@ function Projects() {
 
                {project.featured && (
   <span className="project-featured" title="Proyek Unggulan">
-    <Star size={16} fill="currentColor" />
+    <Crown size={16} fill="currentColor" />
   </span>
 )}
               </div>
