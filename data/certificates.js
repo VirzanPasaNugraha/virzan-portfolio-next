@@ -30,7 +30,7 @@ export const certificateCategories = [
       "Partisipasi dalam seminar Writing PKM/Ilmiah & Personal Branding",
     document:
       "/documents/Seminar.pdf#page=3",
-    buttonText: "Lihat Kegiatan",
+    buttonText: "Lihat Seminar",
   },
   {
   id: 4,
