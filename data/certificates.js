@@ -36,7 +36,7 @@ export const certificateCategories = [
     id: 4,
     title: "Webinar",
     category: "Kegiatan",
-    total: "1 Kegiatan",
+    total: "5 Kegiatan",
     description:
       "Telah mengikuti beberapa webinar sebagai peserta, di antaranya tiga webinar Skilvul AI Club seputar data science dan AI (Optimizing Data Science Workflows with AI and Machine Learning – 30 Mei 2024, Debating AI – 26 April 2024, dan Exploring the Power of Conversational AI – 28 Juni 2024), webinar teknologi \"Mencari TAHU apa itu Algoritma dan Data Sains\" oleh RTIK Sumedang pada 8 November 2025, serta webinar DiGDaya#24 tentang kajian sistem mineral Indonesia oleh Pusat Riset Sumber Daya Geologi BRIN pada 5 Agustus 2026.",
     document:
