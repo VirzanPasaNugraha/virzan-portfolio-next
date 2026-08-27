@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata = {
   title:
-    "Virzan Pasa Nugraha | Software Developer & Peneliti Teknologi",
+    "Virzan Pasa Nugraha, S.Kom. | Software Developer & Peneliti Teknologi",
 
   description:
     "Portfolio resmi Virzan Pasa Nugraha, Software Developer dan peneliti teknologi. Menampilkan proyek aplikasi, Internet of Things, publikasi ilmiah, sertifikasi, dan pengalaman.",
