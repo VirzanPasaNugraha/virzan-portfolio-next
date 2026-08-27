@@ -39,17 +39,6 @@ function Certificates() {
               saya ikuti.
             </p>
           </div>
-
-          <a
-            href={certificateDocument}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="certificate-document-button"
-          >
-            <FileText size={19} />
-            Lihat Semua Dokumen
-            <ArrowUpRight size={17} />
-          </a>
         </div>
 
         <div className="certificate-grid">
