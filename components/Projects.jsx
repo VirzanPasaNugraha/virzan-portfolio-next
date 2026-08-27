@@ -60,12 +60,6 @@ function Projects() {
                 <span className="project-number">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-
-                {project.featured && (
-                  <span className="project-featured">
-                    Proyek Unggulan
-                  </span>
-                )}
               </div>
 
               <div className="project-layout">
