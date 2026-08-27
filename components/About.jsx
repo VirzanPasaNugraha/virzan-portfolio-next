@@ -86,7 +86,7 @@ function About() {
           </h2>
 
         <p>
-  Virzan Pasa Nugraha adalah lulusan S1 Informatika Universitas
+  Virzan Pasa Nugraha, S.Kom. adalah lulusan S1 Informatika Universitas
   Sebelas April Sumedang yang memiliki fokus pada pengembangan
   perangkat lunak dan penelitian teknologi. Ia mengembangkan aplikasi
   mobile dan berbasis web, mengeksplorasi Internet of Things (IoT) dan
