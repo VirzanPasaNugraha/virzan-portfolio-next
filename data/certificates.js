@@ -96,6 +96,17 @@ export const certificateCategories = [
       "/documents/Arcade.pdf#page=8",
     buttonText: "Lihat Bukti Pengiriman",
   },
+  {
+    id: 9,
+    title: "JobReady Employability Skills",
+    category: "Kompetensi",
+    total: "123 Jam",
+    description:
+      "Telah menyelesaikan course JobReady Employability Skills dari Wadhwani Foundation setara 123 jam pembelajaran, sebagai bagian dari pengembangan keterampilan kesiapan kerja (employability skills), selesai pada 31 Desember 2024.",
+    document:
+      "/documents/wadhwani.pdf#page=9",
+    buttonText: "Lihat Sertifikat",
+  },
 ];
 
 export const certificateDocument =
