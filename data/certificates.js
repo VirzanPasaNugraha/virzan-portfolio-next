@@ -45,7 +45,7 @@ export const certificateCategories = [
   },
   {
     id: 5,
-    title: "Sertifikat Coursera",
+    title: "Coursera",
     category: "Kompetensi",
     total: "5 Sertifikat",
     description:
