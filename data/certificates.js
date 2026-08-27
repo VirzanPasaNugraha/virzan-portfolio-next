@@ -45,7 +45,7 @@ export const certificateCategories = [
     "Berpartisipasi sebagai anggota Divisi Ekonomi Kreatif HIMA FTI dalam mendukung kegiatan organisasi, pengembangan kreativitas mahasiswa, serta program kerja di lingkungan Fakultas Teknologi Informasi.",
   document:
     "/profile/hima.jpeg",
-     buttonText: "Lihat SERT Organisasi",
+     buttonText: "Lihat Organisasi",
 },
 {
   id: 5,
@@ -59,7 +59,7 @@ export const certificateCategories = [
 
   document:
     "/profile/kkn.pdf",
-     buttonText: "Lihat SERT KKN",
+     buttonText: "Lihat KKN",
 },
 ];
 
