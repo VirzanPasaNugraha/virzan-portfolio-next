@@ -10,7 +10,7 @@ export const certificateCategories = [
       "/documents/Perlombaan.pdf#page=1",
     buttonText: "Lihat Pencapaian",
   },
-  {
+ {
     id: 2,
     title: "Kredensial Google Cloud Skills Boost.",
     category: "Kompetensi",
@@ -18,8 +18,8 @@ export const certificateCategories = [
     description:
       "Pengembangan kompetensi dalam cloud computing, machine learning, artificial intelligence, dan teknologi.",
     document:
-      "/documents/220660121054_VirzanPasaNugraha_SERT-PENG-KOMPETENSI.pdf#page=2",
-    buttonText: "Lihat Course",
+      "https://www.skills.google/public_profiles/7d1f6006-07ee-4cb4-a8f9-371acfd11cd3",
+    buttonText: "Lihat Kredensial",
   },
   {
     id: 3,
