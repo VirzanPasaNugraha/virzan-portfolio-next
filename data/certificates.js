@@ -5,9 +5,9 @@ export const certificateCategories = [
     category: "Prestasi",
     total: "2 Pencapaian",
     description:
-      "Pencapaian dalam kompetisi teknologi dan pengembangan startup",
+      "Pencapaian dalam kompetisi teknologi, pengembangan startup, dan pemrograman.",
     document:
-      "/documents/Perlombaan.pdf#page=1",
+      "/documents/220660121054_VirzanPasaNugraha_SERT-PENG-KOMPETENSI.pdf#page=1",
     buttonText: "Lihat Prestasi",
   },
   {
