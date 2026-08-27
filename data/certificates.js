@@ -88,7 +88,7 @@ export const certificateCategories = [
 {
     id: 8,
     title: "Merchandise Google Cloud Skills Boost Arcade",
-    category: "Penghargaan",
+    category: "Kegiatan",
     total: "1 Paket",
     description:
       "Menerima paket merchandise apresiasi dari program Google Cloud Skills Boost Arcade berupa t-shirt, tas, lampu meja dengan jam, stiker, dan badge, sebagai bentuk penghargaan atas pencapaian poin dan penyelesaian tantangan dalam program Arcade.",
