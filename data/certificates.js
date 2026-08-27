@@ -8,7 +8,7 @@ export const certificateCategories = [
       "Pencapaian dalam kompetisi teknologi, pengembangan startup, dan pemrograman.",
     document:
       "/documents/Perlombaan.pdf#page=1",
-    buttonText: "Lihat Prestasi",
+    buttonText: "Lihat Pencapaian",
   },
   {
     id: 2,
