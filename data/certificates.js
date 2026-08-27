@@ -7,7 +7,7 @@ export const certificateCategories = [
     description:
       "Pencapaian dalam kompetisi teknologi, pengembangan startup, dan pemrograman.",
     document:
-      "/documents/220660121054_VirzanPasaNugraha_SERT-PENG-KOMPETENSI.pdf#page=1",
+      "/documents/Perlombaan.pdf#page=1",
     buttonText: "Lihat Prestasi",
   },
   {
