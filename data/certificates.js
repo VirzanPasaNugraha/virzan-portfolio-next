@@ -1,7 +1,7 @@
 export const certificateCategories = [
   {
     id: 1,
-    title: "Prestasi & Lomba",
+    title: "Prestasi",
     category: "Prestasi",
     total: "2 Pencapaian",
     description:
@@ -12,9 +12,9 @@ export const certificateCategories = [
   },
   {
     id: 2,
-    title: "Kompetensi & Course",
+    title: "Kredensial Google Cloud Skills Boost.",
     category: "Kompetensi",
-    total: "146+ Penyelesaian",
+    total: "146 Penyelesaian",
     description:
       "Pengembangan kompetensi dalam cloud computing, machine learning, artificial intelligence, dan teknologi.",
     document:
