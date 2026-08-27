@@ -16,7 +16,7 @@ export const certificateCategories = [
     category: "Kompetensi",
     total: "146 Penyelesaian",
     description:
-      "Pengembangan kompetensi dalam cloud computing, machine learning, artificial intelligence, dan teknologi.",
+      "Telah menyelesaikan 146 course/badge di Google Cloud Skills Boost dan meraih status Diamond League dengan 176.720 poin sebagai member sejak 2025. Kompetensi yang diperoleh diawali dari seri Fondasi Google Cloud Computing (dasar cloud computing, infrastruktur, networking & keamanan, serta data/ML/AI), dilanjutkan dua sertifikasi utama yaitu Google Cloud Cybersecurity Certificate dan Google Cloud Data Analytics Certificate (masing-masing 5 course), serta berbagai skill badge di bidang cloud infrastructure & networking (Compute Engine, Kubernetes, Terraform, load balancing), machine learning & AI (BigQuery ML, Vertex AI, TensorFlow, MLOps, Responsible AI), generative AI (Gen AI Leader learning path, LLM, Dialogflow CX), Google Security Operations & GDC (SecOps, SOAR, GDC Platform), Google Workspace dengan Gemini (Gmail, Docs, Sheets, Slides, Meet, Drive), beberapa course level Cloud Digital Leader, serta panduan persiapan sertifikasi Google Cloud (ACE, PCA, PCNE, PDE, PMLE). Selain itu juga aktif mengikuti program gamifikasi Skills Boost Arcade melalui berbagai badge trivia mingguan dan event khusus.",
     document:
       "https://www.skills.google/public_profiles/7d1f6006-07ee-4cb4-a8f9-371acfd11cd3",
     buttonText: "Lihat Kredensial",
