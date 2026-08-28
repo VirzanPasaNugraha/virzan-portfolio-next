@@ -6,17 +6,17 @@ export const metadata = {
     "Virzan Pasa Nugraha, S.Kom. | Software Developer & Peneliti Teknologi",
 
   description:
-    "Portfolio resmi Virzan Pasa Nugraha, Software Developer dan peneliti teknologi. Menampilkan proyek aplikasi, Internet of Things, publikasi ilmiah, sertifikasi, dan pengalaman.",
+    "Portfolio resmi Virzan Pasa Nugraha, S.Kom., Software Developer dan peneliti teknologi. Menampilkan proyek aplikasi, Internet of Things, publikasi ilmiah, sertifikasi, dan pengalaman.",
 
   authors: [
     {
       name:
-        "Virzan Pasa Nugraha",
+        "Virzan Pasa Nugraha, S.Kom.",
     },
   ],
 
   keywords: [
-    "Virzan Pasa Nugraha",
+    "Virzan Pasa Nugraha, S.Kom.",
     "Software Developer",
     "Informatika",
     "Universitas Sebelas April",
@@ -37,7 +37,7 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Virzan Pasa Nugraha | Portfolio",
+      "Virzan Pasa Nugraha, S.Kom. | Portfolio",
 
     description:
       "Software Developer dan peneliti teknologi.",
@@ -46,7 +46,7 @@ export const metadata = {
       "https://virzanpasanugraha.my.id/",
 
     siteName:
-      "Virzan Pasa Nugraha",
+      "Virzan Pasa Nugraha, S.Kom.",
 
     type:
       "website",
@@ -63,7 +63,7 @@ export const metadata = {
           512,
 
         alt:
-          "Virzan Pasa Nugraha",
+          "Virzan Pasa Nugraha, S.Kom.",
       },
     ],
   },
@@ -96,7 +96,7 @@ export default function RootLayout({
         "Person",
 
       "name":
-        "Virzan Pasa Nugraha",
+        "Virzan Pasa Nugraha, S.Kom.",
 
       "url":
         "https://virzanpasanugraha.my.id/",
