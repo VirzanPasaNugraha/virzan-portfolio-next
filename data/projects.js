@@ -852,5 +852,35 @@ export const projects = [
       "Client-Side Processing",
       "Responsive Design"
     ],
-  }
+  },
+  {
+    id: 26,
+
+    title: "Clinical Blood Report Assistant",
+
+    subtitle:
+      "Asisten Analisis Laporan Darah Berbasis AI (Capstone Project IBM)",
+
+    category: "Artificial Intelligence",
+
+    featured: true,
+
+    image: "/profile/ibm3.png",
+
+    liveUrl: "https://ibmsesi3.vercel.app/",
+
+    description:
+      "Clinical Blood Report Assistant adalah prototipe capstone project berupa antarmuka asisten analisis laporan darah berbasis AI. Pengguna dapat mengunggah laporan darah (PDF/PNG/JPG) lewat drag & drop, yang kemudian dianalisis langsung oleh Gemini API untuk menghasilkan ringkasan interpretatif. Aplikasi ini dilengkapi bagian Cara Kerja, Panduan Penggunaan, serta Kebijakan & Persyaratan, dengan desain khas 'lembar spesimen laboratorium' lengkap dengan label spesimen, barcode, dan ticker nilai vital. Seluruh proses berjalan sepenuhnya di sisi klien (client-side) tanpa backend sendiri.",
+
+    role: "Full Stack Developer & Product Designer",
+
+    technologies: [
+      "Vite",
+      "JavaScript",
+      "Tailwind CSS",
+      "Google Gemini AI",
+      "Client-Side Processing",
+      "Responsive Design",
+    ],
+  },
 ];
