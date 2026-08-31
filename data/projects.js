@@ -883,4 +883,35 @@ export const projects = [
       "Responsive Design",
     ],
   },
+    {
+    id: 27,
+
+    title: "Watermark Remover App",
+
+    subtitle:
+      "Aplikasi Web Penghapus Watermark Foto Gratis",
+
+    category: "Website",
+
+    featured: true,
+
+    image: "/profile/watermark-remover.png",
+
+    liveUrl: "https://zan-watermark-remover.netlify.app/",
+
+    description:
+      "Watermark Remover App adalah aplikasi web untuk menghapus watermark dari foto milik sendiri secara 100% gratis, tanpa iklan, kuota, maupun langganan. Pengguna cukup mengunggah foto JPG/PNG, menandai area watermark lewat seleksi kotak edge-to-edge di atas kanvas (atau tombol cepat strip penuh atas/bawah/kiri/kanan), lalu memproses dan mengunduh hasilnya secara instan. Proses penghapusan watermark menggunakan algoritma diffusion-based inpainting (Jacobi iteration) berbasis pure JavaScript sehingga tidak memerlukan dependency native maupun Python, membuatnya cocok untuk deploy di platform serverless seperti Vercel maupun Netlify.",
+
+    role: "Full Stack Developer & Product Designer",
+
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Jimp",
+      "Client-Side Processing",
+      "Responsive Design",
+    ],
+  },
 ];
