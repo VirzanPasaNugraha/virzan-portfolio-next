@@ -914,4 +914,38 @@ export const projects = [
       "Responsive Design",
     ],
   },
+
+   {
+    id: 28,
+
+    title: "PDFLite.dev",
+
+    subtitle:
+      "Kumpulan Tools PDF Gratis Tanpa Upload Server (PWA)",
+
+    category: "Website",
+
+    featured: true,
+
+    image: "/profile/pdfutilities.png",
+
+    liveUrl: "https://pdf-utilities.netlify.app/",
+
+    description:
+      "PDFLite.dev adalah kumpulan sembilan tools PDF gratis (Merge, Split, Delete Pages, PDF ke JPG, JPG ke PDF, Compress, Protect, Unlock, dan Markdown ke PDF) yang seluruh pemrosesannya berjalan langsung di browser pengguna tanpa file yang diunggah ke server. Fitur Protect/Unlock PDF mendukung enkripsi AES-256 maupun RC4, sementara Markdown ke PDF memakai parser markdown buatan sendiri dengan live preview dan hasil teks yang tetap bisa diseleksi. Sebagai Progressive Web App, aplikasi ini juga dapat dipakai offline pada kunjungan berikutnya berkat Service Worker yang meng-cache App Shell dan aset engine pihak ketiga.",
+
+    role: "Full Stack Developer & Product Designer",
+
+    technologies: [
+      "JavaScript",
+      "Tailwind CSS",
+      "pdf-lib",
+      "pdf.js",
+      "JSZip",
+      "PWA",
+      "Service Worker",
+      "Client-Side Processing",
+      "Responsive Design",
+    ],
+  },
 ];
