@@ -948,4 +948,38 @@ export const projects = [
       "Responsive Design",
     ],
   },
+
+   {
+    id: 29,
+
+    title: "CodeScan",
+
+    subtitle:
+      "Aplikasi Web Scan & Generator QR Code/Barcode",
+
+    category: "Website",
+
+    featured: true,
+
+    image: "/profile/codescan.png",
+
+    liveUrl: "https://code-scan-x.netlify.app/",
+
+    description:
+      "CodeScan adalah aplikasi web untuk memindai QR code dan barcode secara real-time langsung dari kamera perangkat, membuat QR code maupun barcode sendiri (mendukung format seperti CODE128, EAN-13, UPC) dengan hasil unduhan PNG/SVG, serta menyimpan riwayat pemindaian secara lokal di browser. Seluruh proses berjalan 100% di sisi klien tanpa backend/server, sehingga video kamera dan data pengguna tidak pernah dikirim keluar perangkat. Aplikasi ini juga dilengkapi halaman Kebijakan Privasi, Syarat & Ketentuan, serta Panduan Penggunaan.",
+
+    role: "Full Stack Developer & Product Designer",
+
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "html5-qrcode",
+      "qrcode.react",
+      "JsBarcode",
+      "Client-Side Processing",
+      "Responsive Design",
+    ],
+  },
 ];
