@@ -999,7 +999,7 @@ export const projects = [
     liveUrl: "https://perpusnas-semantic-catalog.streamlit.app/",
 
     description:
-      "Perpusnas Semantic Catalog adalah sistem pencarian semantik yang mengubah 32 berkas metadata katalog MARC XML milik Perpustakaan Nasional RI menjadi mesin pencari berbasis makna, bukan sekadar pencocokan kata kunci. Pipeline ETL-nya mem-parsing field MARC21 (judul, pengarang, penerbit, subjek, ISBN) dengan PyMARC, membersihkan dan menormalkan data dengan Pandas, lalu meng-embed teks menjadi vektor 384 dimensi menggunakan model Sentence-Transformers (all-MiniLM-L6-v2) yang disimpan di ChromaDB dengan cosine similarity. Aplikasi ini juga dilengkapi halaman jelajah seluruh katalog dengan filter & paginasi, serta halaman Panduan, Kebijakan Privasi, dan Syarat & Ketentuan.",
+      "Perpusnas Semantic Catalog adalah sistem pencarian semantik yang mengubah 210 berkas metadata katalog MARC XML milik Perpustakaan Nasional RI menjadi mesin pencari berbasis makna, bukan sekadar pencocokan kata kunci. Pipeline ETL-nya mem-parsing field MARC21 (judul, pengarang, penerbit, subjek, ISBN) dengan PyMARC, membersihkan dan menormalkan data dengan Pandas, lalu meng-embed teks menjadi vektor 384 dimensi menggunakan model Sentence-Transformers (all-MiniLM-L6-v2) yang disimpan di ChromaDB dengan cosine similarity. Aplikasi ini juga dilengkapi halaman jelajah seluruh katalog dengan filter & paginasi, serta halaman Panduan, Kebijakan Privasi, dan Syarat & Ketentuan.",
 
     role: "Data Engineer & Full Stack Developer",
 
