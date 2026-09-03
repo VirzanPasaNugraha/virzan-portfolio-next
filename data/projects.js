@@ -994,7 +994,7 @@ export const projects = [
 
     featured: true,
 
-    image: "/profile/perpusnas.png",
+    image: "/profile/perpunas.png",
 
     liveUrl: "https://perpusnas-semantic-catalog.streamlit.app/",
 
