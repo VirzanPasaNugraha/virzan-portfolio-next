@@ -30,7 +30,7 @@ function Certificates() {
             <h2>
               Pencapaian dan perjalanan
               <br />
-               pengembangan kompetensi.
+               {""}pengembangan kompetensi.
             </h2>
 
             <p>
