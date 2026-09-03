@@ -28,9 +28,7 @@ function Certificates() {
             <span>SERTIFIKAT & AKTIVITAS</span>
 
             <h2>
-              Pencapaian dan perjalanan
-              <br />
-               {""}pengembangan kompetensi.
+              Pencapaian dan perjalanan pengembangan kompetensi.
             </h2>
 
             <p>
