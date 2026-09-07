@@ -1015,4 +1015,33 @@ export const projects = [
       "Semantic Search",
     ],
   },
+    {
+    id: 31,
+
+    title: "KelolaNiaga",
+
+    subtitle:
+      "Digital Commerce Management System untuk UMKM",
+
+    category: "Website",
+
+    featured: true,
+
+    image: "/profile/kelolaniaga.png",
+
+    liveUrl: "https://kelola-niaga.infinityfreeapp.com/",
+
+    description:
+      "KelolaNiaga adalah sistem manajemen komersial digital untuk UMKM yang menyatukan pengelolaan katalog produk, kategori, konten/artikel, hingga pemantauan stok dalam satu dashboard admin. Website publik menampilkan katalog produk dan artikel yang terintegrasi langsung dengan pemesanan via WhatsApp, sementara panel admin menangani manajemen produk & stok, kategori, konten halaman, dan artikel secara terpusat.",
+
+    role: "Full Stack Developer",
+
+    technologies: [
+      "Laravel",
+      "Inertia.js",
+      "React",
+      "Tailwind CSS",
+      "MySQL",
+    ],
+  },
 ];
