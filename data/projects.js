@@ -1031,8 +1031,8 @@ export const projects = [
 
     liveUrl: "https://kelola-niaga.infinityfreeapp.com/",
 
-    description:
-      "KelolaNiaga adalah sistem manajemen komersial digital untuk UMKM yang menyatukan pengelolaan katalog produk, kategori, konten/artikel, hingga pemantauan stok dalam satu dashboard admin. Website publik menampilkan katalog produk dan artikel yang terintegrasi langsung dengan pemesanan via WhatsApp, sementara panel admin menangani manajemen produk & stok, kategori, konten halaman, dan artikel secara terpusat.",
+   description:
+  "KelolaNiaga adalah proyek pengembangan sistem manajemen komersial digital yang dirancang untuk membantu UMKM mengelola katalog produk, kategori, konten/artikel, dan stok dalam satu dashboard admin. Website publik menampilkan katalog produk dan artikel dengan alur pemesanan yang terintegrasi melalui WhatsApp, sementara panel admin menyediakan pengelolaan produk dan stok, kategori, konten halaman, serta artikel secara terpusat.",
 
     role: "Full Stack Developer",
 
