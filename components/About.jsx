@@ -39,16 +39,16 @@ function About() {
       school: "SMPN 4 Sumedang",
       level: "Sekolah Menengah Pertama",
     },
-    {
-      year: "2019 — 2022",
-      school: "SMKN 1 Sumedang",
-      level: "Sekolah Menengah Kejuruan",
-    },
-    {
-      year: "2022 — 2026",
-      school: "Universitas Sebelas April Sumedang",
-      level: "S1 Informatika",
-    },
+   {
+  year: "2019 — 2022",
+  school: "SMKN 1 Sumedang",
+  level: "Rekayasa Perangkat Lunak",
+},
+{
+  year: "2022 — 2026",
+  school: "Universitas Sebelas April Sumedang",
+  level: "S1 Informatika",
+},
   ];
 
   const experiences = [
