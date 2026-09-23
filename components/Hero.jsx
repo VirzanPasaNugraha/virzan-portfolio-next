@@ -13,13 +13,14 @@ function Hero() {
             Nugraha, S.Kom<span>.</span>
           </h1>
 
-          <h2>Software Developer & Peneliti Teknologi</h2>
+          <h2>Software Developer, Data Analyst & Peneliti Teknologi</h2>
 
           <p>
             Saya berfokus pada pengembangan aplikasi mobile dan website,
-            Internet of Things (IoT), eksplorasi machine learning, serta
-            penelitian di bidang usability dan Human-Computer Interaction
-            (HCI).
+            analitik data serta business intelligence (Power BI & SQL),
+            eksplorasi Internet of Things (IoT) dan machine learning, hingga
+            penelitian di bidang usability, Human-Computer Interaction (HCI),
+            dan keamanan siber.
           </p>
 
           <div className="hero-actions">

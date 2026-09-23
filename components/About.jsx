@@ -10,9 +10,9 @@ function About() {
   const interests = [
     {
       icon: <Code2 size={26} />,
-      title: "Pengembangan Perangkat Lunak",
+      title: "Pengembangan Perangkat Lunak & Analitik Data",
       description:
-        "Mengembangkan aplikasi mobile dan berbasis web untuk menghasilkan solusi digital yang dapat menyelesaikan permasalahan nyata.",
+        "Mengembangkan aplikasi mobile dan berbasis web, serta membangun dashboard analitik dan business intelligence (Power BI & SQL) untuk menghasilkan solusi digital yang dapat menyelesaikan permasalahan nyata.",
     },
     {
       icon: <GraduationCap size={26} />,
@@ -24,7 +24,7 @@ function About() {
       icon: <Search size={26} />,
       title: "Penelitian Teknologi",
       description:
-        "Memiliki ketertarikan pada evaluasi usability, Human-Computer Interaction (HCI), machine learning, serta penelitian di bidang teknologi informasi.",
+        "Memiliki ketertarikan pada evaluasi usability, Human-Computer Interaction (HCI), machine learning, keamanan siber, serta penelitian di bidang teknologi informasi.",
     },
   ];
 
@@ -54,12 +54,12 @@ function About() {
   const experiences = [
     {
       id: 1,
-      title: "Petugas Pemilihan Umum (Pemilu)",
+      title: "Petugas Pantarlih & Anggota KPPS 3",
       organization: "Penyelenggara Pemilu",
       year: "2024",
       image: "/profile/pantarlih.jpeg",
       description:
-        "Melaksanakan tugas pengisian dan pencatatan data secara tertulis dalam proses Pemilihan Umum 2024 yang mencakup berbagai jenis pemilihan, serta membantu memastikan data hasil pelaksanaan pemungutan suara tercatat secara teliti dan sesuai dengan dokumen yang digunakan.",
+        "Bertugas sebagai Petugas Pemutakhiran Data Pemilih (Pantarlih) dalam proses pencocokan dan penelitian data pemilih, serta sebagai Anggota KPPS 3 yang menangani administrasi dan pencatatan data secara tertulis pada pelaksanaan Pemilihan Umum 2024, guna memastikan data hasil pemungutan suara tercatat secara teliti dan sesuai dengan dokumen yang digunakan.",
     },
     {
       id: 2,
@@ -81,17 +81,18 @@ function About() {
           <span>TENTANG SAYA</span>
 
           <h2>
-            Pengembang dan Peneliti Teknologi.
+            Pengembang, Analis Data, dan Peneliti Teknologi.
          
           </h2>
 
         <p>
   Virzan Pasa Nugraha, S.Kom. adalah lulusan S1 Informatika Universitas
   Sebelas April Sumedang yang memiliki fokus pada pengembangan
-  perangkat lunak dan penelitian teknologi. Ia mengembangkan aplikasi
-  mobile dan berbasis web, mengeksplorasi Internet of Things (IoT) dan
-  machine learning, serta melakukan penelitian dalam bidang usability
-  dan Human-Computer Interaction (HCI).
+  perangkat lunak, analitik data, dan penelitian teknologi. Ia
+  mengembangkan aplikasi mobile, website, hingga dashboard business
+  intelligence (Power BI & SQL), mengeksplorasi Internet of Things
+  (IoT) dan machine learning, serta melakukan penelitian dalam bidang
+  usability, Human-Computer Interaction (HCI), dan keamanan siber.
 </p>
         </div>
 
