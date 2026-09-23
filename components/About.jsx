@@ -12,7 +12,7 @@ function About() {
       icon: <Code2 size={26} />,
       title: "Pengembangan Perangkat Lunak & Analitik Data",
       description:
-        "Mengembangkan aplikasi mobile dan berbasis web, serta membangun dashboard analitik dan business intelligence (Power BI & SQL) untuk menghasilkan solusi digital yang dapat menyelesaikan permasalahan nyata.",
+        "Mengembangkan aplikasi mobile dan berbasis web, membangun dashboard analitik dan business intelligence (Power BI & SQL), serta memiliki kompetensi administrasi perkantoran digital dengan Microsoft 365 & Power Platform untuk menghasilkan solusi digital yang dapat menyelesaikan permasalahan nyata.",
     },
     {
       icon: <GraduationCap size={26} />,
@@ -90,9 +90,12 @@ function About() {
   Sebelas April Sumedang yang memiliki fokus pada pengembangan
   perangkat lunak, analitik data, dan penelitian teknologi. Ia
   mengembangkan aplikasi mobile, website, hingga dashboard business
-  intelligence (Power BI & SQL), mengeksplorasi Internet of Things
-  (IoT) dan machine learning, serta melakukan penelitian dalam bidang
-  usability, Human-Computer Interaction (HCI), dan keamanan siber.
+  intelligence (Power BI & SQL), serta memiliki kompetensi administrasi
+  perkantoran digital berbasis Microsoft 365 & Power Platform (Word,
+  Excel, PowerPoint, Power Automate, Power Virtual Agents). Ia juga
+  mengeksplorasi Internet of Things (IoT) dan machine learning, serta
+  melakukan penelitian dalam bidang usability, Human-Computer
+  Interaction (HCI), dan keamanan siber.
 </p>
         </div>
 

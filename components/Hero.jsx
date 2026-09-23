@@ -18,9 +18,10 @@ function Hero() {
           <p>
             Saya berfokus pada pengembangan aplikasi mobile dan website,
             analitik data serta business intelligence (Power BI & SQL),
-            eksplorasi Internet of Things (IoT) dan machine learning, hingga
-            penelitian di bidang usability, Human-Computer Interaction (HCI),
-            dan keamanan siber.
+            hingga administrasi perkantoran digital dengan Microsoft 365 &
+            Power Platform. Saya juga aktif mengeksplorasi Internet of Things
+            (IoT), machine learning, serta penelitian di bidang usability,
+            Human-Computer Interaction (HCI), dan keamanan siber.
           </p>
 
           <div className="hero-actions">
