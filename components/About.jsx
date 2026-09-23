@@ -63,12 +63,12 @@ function About() {
     },
     {
       id: 2,
-      title: "Kuliah Kerja Nyata (KKN)",
+      title: "Publikasi & Dokumentasi (PDD) — KKN",
       organization: "Universitas Sebelas April",
       year: "2026",
       image: "/profile/kkn.png",
       description:
-        "Melaksanakan kegiatan Kuliah Kerja Nyata (KKN) di Desa Nagrak, Kecamatan Buahdua, Kabupaten Sumedang sebagai bagian dari pengabdian kepada masyarakat serta terlibat dalam berbagai kegiatan kemasyarakatan selama pelaksanaan KKN.",
+        "Berperan sebagai anggota Divisi Publikasi & Dokumentasi (PDD) dalam pelaksanaan Kuliah Kerja Nyata di Desa Nagrak, Kecamatan Buahdua, Kabupaten Sumedang — bertanggung jawab mengelola dokumentasi visual, konten publikasi digital, dan arsip kegiatan, pendekatan yang selaras dengan kebiasaan mendokumentasikan proyek (README, changelog) dalam keseharian sebagai developer.",
       documentationUrl:
         "https://www.instagram.com/kkn_desanagrak26/",
     },
