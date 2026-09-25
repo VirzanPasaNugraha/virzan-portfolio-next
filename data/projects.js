@@ -1076,4 +1076,36 @@ export const projects = [
       "Data Visualization",
     ],
   },
+    {
+    id: 33,
+
+    title: "Dashboard UMKM Binaan Provinsi Jawa Barat",
+
+    subtitle:
+      "Dashboard Analitik Tren UMKM Binaan 27 Kabupaten/Kota Berbasis Power BI & MySQL",
+
+    category: "Data Science & Machine Learning",
+
+    featured: true,
+
+    image: "/profile/dashboard-umkm-binaan-jabar_v0.1.png",
+
+    liveUrl: "/profile/dashboard-umkm-binaan-jabar_v0.1.pdf",
+
+    description:
+      "Dashboard UMKM Binaan Provinsi Jawa Barat menampilkan tren jumlah Usaha Mikro, Kecil, dan Menengah (UMKM) binaan di 27 kabupaten/kota se-Jawa Barat periode 2019-2023. Data diolah melalui star schema MySQL (1 tabel fakta + 3 dimensi: wilayah, jenis usaha, waktu) dengan measure DAX time intelligence untuk menghitung Growth Rate Year-over-Year. Dashboard terdiri dari tiga halaman: ringkasan KPI dan tren tahunan provinsi, ranking capaian per kabupaten/kota, dan ranking sektor usaha paling dominan. Analisis mengungkap lonjakan signifikan UMKM binaan pada 2020 (+122% dibanding 2019), dengan Kota Bandung sebagai wilayah kontributor tertinggi dan sektor Makanan sebagai jenis usaha paling dominan se-Jawa Barat.",
+
+    role: "Data Analyst & BI Developer",
+
+    technologies: [
+      "Power BI Desktop",
+      "DAX",
+      "Power Query",
+      "MySQL",
+      "SQL",
+      "Star Schema",
+      "XAMPP",
+      "phpMyAdmin",
+    ],
+  },
 ];
