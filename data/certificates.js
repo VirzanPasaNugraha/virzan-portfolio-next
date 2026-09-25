@@ -5,7 +5,7 @@ export const certificateCategories = [
   category: "Prestasi",
   total: "3 Pencapaian",
   description:
-    "Meraih Juara 3 Startup Terbaik Technopreneurship bersama tim (Kelompok 13 – Hast Jaya Pet Care) pada kegiatan Mata Kuliah Technopreneurship FTI UNSAP 2024 yang bekerja sama dengan PT Sawarga Digital Indonesia, Sumedang (6 Juli 2024)[cite: 2]. Selain itu, meraih Juara 4 bersama tim (Outliers) dalam perlombaan Code Crush Vol.2 oleh Himpunan Mahasiswa Informatika (27 Juni 2025)[cite: 2], serta terpilih sebagai Top 10 Pemenang Lomba Foto Literasi 2026 yang diselenggarakan oleh Disarpus bersama Bank BJB melalui akun Instagram (@vpn_23th)[cite: 2].",
+    "Terpilih sebagai Top 10 Pemenang Lomba Foto Literasi 2026 yang diselenggarakan oleh Disarpus bersama Bank BJB melalui akun Instagram (@vpn_23th)[cite: 2]. Selain itu, meraih Juara 3 Startup Terbaik Technopreneurship bersama tim (Kelompok 13 – Hast Jaya Pet Care) pada kegiatan Mata Kuliah Technopreneurship FTI UNSAP 2024 yang bekerja sama dengan PT Sawarga Digital Indonesia, Sumedang, 6 Juli 2024[cite: 2], serta meraih Juara 4 bersama tim (Outliers) dalam perlombaan Code Crush Vol.2 yang diselenggarakan DIGIVERSE IT 2025 oleh Himpunan Mahasiswa Informatika, 27 Juni 2025[cite: 2].",
   document:
     "/documents/Perlombaan.pdf#page=1",
   buttonText: "Lihat Pencapaian",
