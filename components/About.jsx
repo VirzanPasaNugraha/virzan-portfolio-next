@@ -10,9 +10,9 @@ function About() {
   const interests = [
     {
       icon: <Code2 size={26} />,
-      title: "Pengembangan Perangkat Lunak & Analitik Data",
+      title: "Analitik Data & Business Intelligence",
       description:
-        "Mengembangkan aplikasi mobile dan berbasis web, membangun dashboard analitik dan business intelligence (Power BI & SQL), serta memiliki kompetensi administrasi perkantoran digital dengan Microsoft 365 & Power Platform untuk menghasilkan solusi digital yang dapat menyelesaikan permasalahan nyata.",
+        "Membangun dashboard analitik dan business intelligence (Power BI & SQL), serta memiliki kompetensi administrasi perkantoran digital dengan Microsoft 365 & Power Platform (termasuk Power Automate & Copilot Studio) untuk menghasilkan solusi digital yang dapat menyelesaikan permasalahan nyata.",
     },
     {
       icon: <GraduationCap size={26} />,
@@ -39,16 +39,16 @@ function About() {
       school: "SMPN 4 Sumedang",
       level: "Sekolah Menengah Pertama",
     },
-   {
-  year: "2019 — 2022",
-  school: "SMKN 1 Sumedang",
-  level: "Rekayasa Perangkat Lunak",
-},
-{
-  year: "2022 — 2026",
-  school: "Universitas Sebelas April Sumedang",
-  level: "S1 Informatika",
-},
+    {
+      year: "2019 — 2022",
+      school: "SMKN 1 Sumedang",
+      level: "Rekayasa Perangkat Lunak",
+    },
+    {
+      year: "2022 — 2026",
+      school: "Universitas Sebelas April Sumedang",
+      level: "S1 Informatika",
+    },
   ];
 
   const experiences = [
@@ -68,7 +68,7 @@ function About() {
       year: "2026",
       image: "/profile/kkn.png",
       description:
-        "Berperan sebagai anggota Divisi Publikasi & Dokumentasi (PDD) dalam pelaksanaan Kuliah Kerja Nyata di Desa Nagrak, Kecamatan Buahdua, Kabupaten Sumedang — bertanggung jawab mengelola dokumentasi visual, konten publikasi digital, dan arsip kegiatan, pendekatan yang selaras dengan kebiasaan mendokumentasikan proyek (README, changelog) dalam keseharian sebagai developer.",
+        "Berperan sebagai anggota Divisi Publikasi & Dokumentasi (PDD) dalam pelaksanaan Kuliah Kerja Nyata di Desa Nagrak, Kecamatan Buahdua, Kabupaten Sumedang — bertanggung jawab mengelola dokumentasi visual, konten publikasi digital, dan arsip kegiatan, dengan pendekatan yang rapi dan terstruktur dalam setiap dokumentasi proyek yang dikerjakan.",
       documentationUrl:
         "https://www.instagram.com/kkn_desanagrak26/",
     },
@@ -80,23 +80,19 @@ function About() {
         <div className="section-heading">
           <span>TENTANG SAYA</span>
 
-          <h2>
-            Pengembang, Analis Data, dan Peneliti Teknologi.
-         
-          </h2>
+          <h2>Analis Data & Business Intelligence Developer.</h2>
 
-        <p>
-  Virzan Pasa Nugraha, S.Kom. adalah lulusan S1 Informatika Universitas
-  Sebelas April Sumedang yang memiliki fokus pada pengembangan
-  perangkat lunak, analitik data, dan penelitian teknologi. Ia
-  mengembangkan aplikasi mobile, website, hingga dashboard business
-  intelligence (Power BI & SQL), serta memiliki kompetensi administrasi
-  perkantoran digital berbasis Microsoft 365 & Power Platform (Word,
-  Excel, PowerPoint, Power Automate, Power Virtual Agents). Ia juga
-  mengeksplorasi Internet of Things (IoT) dan machine learning, serta
-  melakukan penelitian dalam bidang usability, Human-Computer
-  Interaction (HCI), dan keamanan siber.
-</p>
+          <p>
+            Virzan Pasa Nugraha, S.Kom. adalah lulusan S1 Informatika Universitas
+            Sebelas April Sumedang yang memiliki fokus pada analisis data, business
+            intelligence, dan pelaporan data-driven. Ia membangun dashboard
+            analitik menggunakan Power BI & SQL, didukung ekosistem Microsoft 365 &
+            Power Platform (Word, Excel, PowerPoint, Power Automate, Copilot
+            Studio) untuk mengolah data menjadi solusi digital yang menyelesaikan
+            permasalahan nyata. Ia juga memiliki ketertarikan pada machine
+            learning, usability/HCI, serta keamanan siber sebagai bidang eksplorasi
+            lanjutan.
+          </p>
         </div>
 
         <div className="experience-wrapper">
