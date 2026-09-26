@@ -48,9 +48,9 @@ function Projects() {
           </h2>
 
           <p>
-            Eksplorasi proyek pengembangan perangkat lunak, aplikasi mobile,
-            website, Internet of Things, dan implementasi teknologi yang telah
-            saya kerjakan.
+            Eksplorasi proyek analitik data, dashboard business intelligence,
+            hingga pengembangan perangkat lunak dan implementasi teknologi
+            yang telah saya kerjakan.
           </p>
         </div>
 
@@ -62,11 +62,11 @@ function Projects() {
                   {String(index + 1).padStart(2, "0")}
                 </span>
 
-               {project.featured && (
-  <span className="project-featured" title="Proyek Unggulan">
-    <Crown size={16} fill="currentColor" />
-  </span>
-)}
+                {project.featured && (
+                  <span className="project-featured" title="Proyek Unggulan">
+                    <Crown size={16} fill="currentColor" />
+                  </span>
+                )}
               </div>
 
               <div className="project-layout">
@@ -161,17 +161,17 @@ function Projects() {
                     project.demoUrl ||
                     project.documentationUrl) && (
                     <div className="project-actions">
-{project.liveUrl && (
-  <a
-    href={project.liveUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="project-action-link"
-  >
-    {project.buttonText || "Kunjungi Proyek"}
-    <ArrowUpRight size={18} />
-  </a>
-)}
+                      {project.liveUrl && (
+                        <a
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="project-action-link"
+                        >
+                          {project.buttonText || "Kunjungi Proyek"}
+                          <ArrowUpRight size={18} />
+                        </a>
+                      )}
                       {project.demoUrl && (
                         <a
                           href={project.demoUrl}
