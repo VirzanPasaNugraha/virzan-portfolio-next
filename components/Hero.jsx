@@ -13,16 +13,15 @@ function Hero() {
             Nugraha, S.Kom<span>.</span>
           </h1>
 
-          <h2>Software Developer, Data Analyst & Peneliti Teknologi</h2>
+         <h2>Data Analyst & Business Intelligence Developer</h2>
 
-          <p>
-            Saya berfokus pada pengembangan aplikasi mobile dan website,
-            analitik data serta business intelligence (Power BI & SQL),
-            hingga administrasi perkantoran digital dengan Microsoft 365 &
-            Power Platform. Saya juga aktif mengeksplorasi Internet of Things
-            (IoT), machine learning, serta penelitian di bidang usability,
-            Human-Computer Interaction (HCI), dan keamanan siber.
-          </p>
+        <p>
+  Saya berfokus pada analisis data, pengolahan data, dan business
+  intelligence menggunakan Power BI, SQL, serta ekosistem Microsoft 365 &
+  Power Platform (termasuk Power Automate dan Copilot Studio) untuk
+  mengubah data mentah menjadi dashboard dan insight yang mendukung
+  pengambilan keputusan.
+</p>
 
           <div className="hero-actions">
             <a href="#projects" className="btn-primary">
