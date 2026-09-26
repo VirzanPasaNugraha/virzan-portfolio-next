@@ -80,7 +80,7 @@ function About() {
         <div className="section-heading">
           <span>TENTANG SAYA</span>
 
-          <h2>Analis Data & Business Intelligence Developer.</h2>
+          <h2>Data Analyst.</h2>
 
           <p>
             Virzan Pasa Nugraha, S.Kom. adalah lulusan S1 Informatika Universitas
