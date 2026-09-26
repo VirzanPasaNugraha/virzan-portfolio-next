@@ -56,7 +56,7 @@ export const projects = [
     liveUrl: "https://hipertensi-jabar-2019-2025.streamlit.app/",
     description:
       "Hipertensi Jabar Dashboard adalah dashboard interaktif berbasis Streamlit yang menyajikan data jumlah penderita hipertensi yang mendapat pelayanan kesehatan di 27 kabupaten/kota Provinsi Jawa Barat periode 2019-2025, bersumber dari Open Data Dinas Kesehatan Provinsi Jawa Barat. Dashboard ini menghadirkan ringkasan KPI, perbandingan dan ranking antarwilayah, heatmap wilayah x tahun, analisis tren linear per kabupaten/kota lengkap dengan estimasi indikatif tahun berikutnya, serta tabel data yang dapat difilter dan diunduh.",
-    role: "Full Stack Developer & Data Analyst",
+   role: "Data Analyst & Full Stack Developer",
     technologies: ["Python", "Streamlit", "Pandas", "NumPy", "Plotly"],
   },
   {
@@ -70,7 +70,7 @@ export const projects = [
     liveUrl: "https://diabetes-jabar-2019-2025.streamlit.app/",
     description:
       "Diabetes Melitus Jabar Dashboard adalah dashboard interaktif berbasis Streamlit yang menyajikan data jumlah penderita diabetes melitus di 27 kabupaten/kota Provinsi Jawa Barat periode 2019-2025, bersumber dari Open Data Dinas Kesehatan Provinsi Jawa Barat. Dashboard ini menghadirkan ringkasan KPI, perbandingan dan ranking antarwilayah, heatmap wilayah x tahun, analisis tren linear per kabupaten/kota lengkap dengan estimasi indikatif tahun berikutnya, serta tabel data yang dapat difilter dan diunduh.",
-    role: "Full Stack Developer & Data Analyst",
+   role: "Data Analyst & Full Stack Developer",
     technologies: ["Python", "Streamlit", "Pandas", "NumPy", "Plotly"],
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     liveUrl: "https://hiv-jabar-2018-2025.streamlit.app/",
     description:
       "HIV Jabar Dashboard adalah dashboard interaktif berbasis Streamlit yang menyajikan data jumlah kasus HIV baru di 27 kabupaten/kota Provinsi Jawa Barat periode 2018-2025, bersumber dari Open Data Dinas Kesehatan Provinsi Jawa Barat. Dashboard ini menghadirkan ringkasan KPI, perbandingan dan ranking antarwilayah, heatmap wilayah x tahun, analisis tren linear per kabupaten/kota lengkap dengan estimasi indikatif tahun berikutnya, serta tabel data yang dapat difilter dan diunduh.",
-    role: "Full Stack Developer & Data Analyst",
+    role: "Data Analyst & Full Stack Developer",
     technologies: ["Python", "Streamlit", "Pandas", "NumPy", "Plotly"],
   },
   {
@@ -96,7 +96,7 @@ export const projects = [
     liveUrl: "https://perpustakaan-jabar-2018.streamlit.app/",
     description:
       "Perpustakaan Jabar Dashboard adalah dashboard interaktif berbasis Streamlit yang menyajikan data jumlah perpustakaan berdasarkan jenis di Provinsi Jawa Barat tahun 2018, bersumber dari Open Data Jawa Barat. Dashboard ini menghadirkan ringkasan KPI, perbandingan ADA vs Belum Ada per jenis dan kelompok perpustakaan, analisis rasio cakupan layanan untuk mengidentifikasi jenis perpustakaan yang paling tertinggal, serta tabel data yang dapat difilter dan diunduh. Desain dashboard responsif menyesuaikan tampilan di layar desktop, tablet, maupun mobile.",
-    role: "Full Stack Developer & Data Analyst",
+    role: "Data Analyst & Full Stack Developer",
     technologies: ["Python", "Streamlit", "Pandas", "NumPy", "Plotly"],
   },
   {
