@@ -6,7 +6,7 @@ export const projects = [
       "Dashboard Analitik Data Kesehatan Kabupaten Sumedang Berbasis Power BI & MySQL",
     category: "Data Science & Machine Learning",
     featured: true,
-    image: "/profile/stunting-dashboard.png",
+    image: "/profile/dashboard-stunting-sumedang_v0.1.png",
     liveUrl: "/profile/dashboard-stunting-sumedang_v0.1.pdf",
     description:
       "Dashboard Prevalensi Stunting Balita adalah dashboard analitik yang menampilkan data hasil Bulan Penimbangan Balita di 26 Puskesmas se-Kabupaten Sumedang. Data mentah diolah melalui pipeline ETL berbasis MySQL (XAMPP) — mulai dari pembersihan data, pemisahan baris agregat, hingga pembuatan view analitik dengan window function — sebelum divisualisasikan di Power BI menjadi tiga halaman: ringkasan KPI kabupaten, detail indikator per puskesmas, dan analisis cakupan penimbangan (D/S). Dashboard ini membantu mengidentifikasi wilayah prioritas intervensi gizi secara data-driven, dengan temuan prevalensi stunting kabupaten sebesar 7,16% dari total 69.733 balita yang ditimbang, serta mengungkap wilayah dengan cakupan partisipasi penimbangan di bawah target.",
