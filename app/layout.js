@@ -3,10 +3,10 @@ import "./globals.css";
 
 export const metadata = {
   title:
-    "Virzan Pasa Nugraha, S.Kom. | Software Developer & Peneliti Teknologi",
+    "Virzan Pasa Nugraha, S.Kom. | Data Analyst",
 
   description:
-    "Portfolio resmi Virzan Pasa Nugraha, S.Kom., Software Developer dan peneliti teknologi. Menampilkan proyek aplikasi, Internet of Things, publikasi ilmiah, sertifikasi, dan pengalaman.",
+    "Portfolio resmi Virzan Pasa Nugraha, S.Kom., Data Analyst dengan fokus pada Power BI, SQL, dan business intelligence. Menampilkan dashboard analitik, sertifikasi, publikasi ilmiah, dan pengalaman.",
 
   authors: [
     {
@@ -17,13 +17,14 @@ export const metadata = {
 
   keywords: [
     "Virzan Pasa Nugraha, S.Kom.",
-    "Software Developer",
+    "Data Analyst",
+    "Business Intelligence",
+    "Power BI",
+    "SQL",
+    "Data Analysis",
     "Informatika",
     "Universitas Sebelas April",
-    "Internet of Things",
-    "Machine Learning",
-    "Usability",
-    "Human Computer Interaction",
+    "Python",
   ],
 
   metadataBase:
@@ -37,10 +38,10 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Virzan Pasa Nugraha, S.Kom. | Portfolio",
+      "Virzan Pasa Nugraha, S.Kom. | Portfolio Data Analyst",
 
     description:
-      "Software Developer dan peneliti teknologi.",
+      "Data Analyst dengan fokus pada Power BI, SQL, dan business intelligence.",
 
     url:
       "https://virzanpasanugraha.my.id/",
@@ -105,7 +106,7 @@ export default function RootLayout({
         "https://virzanpasanugraha.my.id/profile/favicon-virzan.png",
 
       "jobTitle":
-        "Software Developer",
+        "Data Analyst",
 
       "sameAs": [
         "https://github.com/VirzanPasaNugraha",
