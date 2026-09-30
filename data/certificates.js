@@ -91,6 +91,16 @@ export const certificateCategories = [
     document: "/documents/wadhwani.pdf#page=9",
     buttonText: "Lihat Sertifikat",
   },
+  {
+    id: 10,
+    title: "HackerRank Skill Certification",
+    category: "Kompetensi",
+    total: "1 Sertifikat",
+    description:
+      "Telah lulus uji kompetensi teknis dan meraih sertifikasi SQL (Advanced) dari HackerRank pada 30 September 2026. Sertifikasi ini memvalidasi keahlian dalam penyelesaian masalah database tingkat lanjut, query kompleks, agregasi data, window functions, serta optimasi query.",
+    document: "https://www.hackerrank.com/certificates/iframe/24ca2fabc9b7",
+    buttonText: "Lihat Sertifikat",
+  },
 ];
 
 export const certificateDocument =
