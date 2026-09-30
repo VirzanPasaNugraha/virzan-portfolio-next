@@ -101,6 +101,16 @@ export const certificateCategories = [
     document: "https://www.hackerrank.com/certificates/iframe/24ca2fabc9b7",
     buttonText: "Lihat Sertifikat",
   },
+  {
+    id: 11,
+    title: "IBM SkillsBuild x Hacktiv8 Certification",
+    category: "Kompetensi",
+    total: "1 Sertifikat & Transkrip",
+    description:
+      "Telah menyelesaikan program IBM SkillsBuild University Education yang diselenggarakan oleh Hacktiv8 Indonesia pada 1 September 2026. Berfokus pada pengembangan AI Agent untuk sektor kesehatan (Health - AI Agent for Healthcare) setara 9 Jam / 12 JP, mencakup fondasi AI Literacy, alur kerja AI Agent, serta pengembangan Capstone Project menggunakan Langflow dan IBM Bob dengan nilai akhir 92.10/100.",
+    document: "/documents/IBM_SkillsBuild_AI_Healthcare_Complete.pdf",
+    buttonText: "Lihat Sertifikat & Transkrip",
+  },
 ];
 
 export const certificateDocument =
